@@ -9,4 +9,6 @@ int main(){
     } else {
         printf("Odd number");
     }
+
+    return 0;
 }
