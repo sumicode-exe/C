@@ -14,5 +14,19 @@ int main(){
     for(int i = 100; i>=1; i = i-1){
         printf("%d \n", i);
     }
+
+    int i=1;
+    while(i<=100){
+        printf("%d \n", i);
+        i++;
+    }
+
+    //DO WHILE LOOP
+    i = 1;
+    do{
+        printf("%d \n", i);
+        i++;
+    } while(i<=100);
+
     return 0;
 }
