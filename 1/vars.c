@@ -12,7 +12,7 @@
 int main(){
 
     int number;
-    int age;
+    //int age;
     int price;
 
     int age = 22;
