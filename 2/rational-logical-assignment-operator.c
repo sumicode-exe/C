@@ -54,13 +54,15 @@ int main(){
     a -= 3;
     printf("a-3 = %d \n", a);
 
-    c /= b;
-    printf("a/10 = %d \n", c);
+    b /= c;
+    printf("b/c = %d \n", c);
 
-    b %= c;
-    printf("a%c10 = %d \n", '%', b);
+    b %= a;
+    printf("b mod a (when a = 19) = %d", b);
 
-//comm
+    //b %= c;
+    //printf("a%c10 = %d \n", '%', b);
+
     return 0;
 
 

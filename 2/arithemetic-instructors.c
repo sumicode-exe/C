@@ -12,7 +12,7 @@ int main(){
     //b + c = a
 
     printf("%d \n", 3 % 2);
-    printf("%d \n, -3 % 2);
+    printf("%d \n" -3 % 2);
 
     return 0;
 }
