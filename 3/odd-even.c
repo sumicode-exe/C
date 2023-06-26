@@ -2,6 +2,8 @@
 
 int main(){
     int num;
+    printf("This programme tells if the number entered is odd or even");
+    printf("Enter a number to continue: ");
     scanf("%d", &num);
 
     if(num % 2 == 0){
