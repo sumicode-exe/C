@@ -60,7 +60,7 @@ int main(){
     b %= c;
     printf("a%c10 = %d \n", '%', b);
 
-
+//comm
     return 0;
 
 
