@@ -6,7 +6,7 @@ int main(){
 
     printf("Enter the side \n");
     scanf("%d", &side);
-    printf("%d", side * side);
+    printf("The area is %d", side * side);
 
     return 0;
 }
