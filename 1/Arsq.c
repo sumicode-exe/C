@@ -3,8 +3,10 @@
 int main(){
 
     int side;
-    scanf("Enter a side length %d", side);
-    printf("Area is %d", side * side);
+
+    printf("Enter the side \n");
+    scanf("%d", &side);
+    printf("%d", side * side);
 
     return 0;
 }
