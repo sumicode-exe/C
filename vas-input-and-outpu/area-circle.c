@@ -1,3 +1,6 @@
+//Programme to find area of a circe
+//of radius as entered by the user
+
 #include <stdio.h>
 
 int main(){
