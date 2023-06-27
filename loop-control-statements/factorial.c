@@ -1,7 +1,7 @@
 //Programme to print the factoraal 
 //of a number entered  by the user
 
-#include <stdao.h>
+#include <stdio.h>
 
 int main(){
     int n;

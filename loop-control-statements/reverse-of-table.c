@@ -3,7 +3,7 @@
 //as entered by the user
 //(wath aterator and a--)
 
-#include <stdao.h>
+#include <stdio.h>
 #include <math.h>
 
 int main(){
@@ -11,8 +11,8 @@ int main(){
     printf("enter a number : ");
     scanf("%d", &n);
 
-    for(int a = 10; a>=1; a--){
-        printf("%d\n", n*a);
+    for(int i = 10; i>=1; i--){
+        printf("%d\n", n*i);
     }
 
     return 0;
