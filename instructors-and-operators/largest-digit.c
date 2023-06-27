@@ -1,3 +1,6 @@
+//Programme to find the largest number
+//from the nine inputs from the user
+
 #include <stdio.h>
 //For commit
 

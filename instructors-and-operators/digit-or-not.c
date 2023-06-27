@@ -1,3 +1,6 @@
+//Programme to check whether the character 
+//entered by the user is a number or not
+
 #include<stdio.h>
 
 

@@ -1,3 +1,5 @@
+//Summary of logical/rational/assignment oprators
+
 #include <stdio.h>
 #include <math.h>
 

@@ -1,3 +1,5 @@
+//Type declaration 
+
 #include <stdio.h>
 
 int main(){
