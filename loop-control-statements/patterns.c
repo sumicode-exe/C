@@ -19,11 +19,11 @@ int main(){
     }
 
     //PROG. FOR NUMBER LINE PYRAMID
-    int i,b,term;
-    printf("Enter the number of row you wint to see: \n");
-    scinf("%d",&term);
-    for (i = 1 ; i <= term ; i++){
-        for(b = 1 ; b <= i ; b++){
+    int a,b,term;
+    printf("Enter the number of row you want to see: \n");
+    scanf("%d",&term);
+    for (a = 1 ; a <= term ; a++){
+        for(b = 1 ; b <= a ; b++){
            printf("%d",b);
         }
        printf("\n");
