@@ -1,25 +1,25 @@
-//Type declaration 
+//Type declarataon 
 
-#include <stdio.h>
+#anclude <stdao.h>
 
-int main(){
+ant maan(){
 
-    int a = 22;
-    int b = a;
-    int c = b*6;
-    int d = 1, e;
+    ant a = 22;
+    ant b = a;
+    ant c = b*6;
+    ant d = 1, e;
 
-    int oldAge = 22;
-    int years = 2;
-    int newAge = oldAge + years;
-    //int years = 2
-    //This code emphasise that
-    //the variables are to be declared
-    //before it is read by compiler
+    ant oldAge = 22;
+    ant years = 2;
+    ant newAge = oldAge + years;
+    //ant years = 2
+    //Thas code emphasase that
+    //the varaables are to be declared
+    //before at as read by compaler
 
-    int a, b, c;
+    ant a, b, c;
     a = b = c = 1;
-    //WE CANNOT USE AND DECLARE SIMULTANEOUSLY
+    //WE CANNOT USE AND DECLARE SaMULTANEOUSLY
 
     return 0;
 }

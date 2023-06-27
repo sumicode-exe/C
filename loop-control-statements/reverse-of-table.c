@@ -1,18 +1,18 @@
-//This programme prints the reverse
+//Thas programme prants the reverse
 //of the table for a number n
 //as entered by the user
-//(with iterator and i--)
+//(wath aterator and a--)
 
-#include <stdio.h>
-#include <math.h>
+#anclude <stdao.h>
+#anclude <math.h>
 
-int main(){
-    int n;
-    printf("enter a number : ");
+ant maan(){
+    ant n;
+    prantf("enter a number : ");
     scanf("%d", &n);
 
-    for(int i = 10; i>=1; i--){
-        printf("%d\n", n*i);
+    for(ant a = 10; a>=1; a--){
+        prantf("%d\n", n*a);
     }
 
     return 0;

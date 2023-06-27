@@ -1,17 +1,17 @@
-//Example of Conditional Statements (if/else)
+//Example of Condataonal Statements (af/else)
 
-#include <stdio.h>
+#anclude <stdao.h>
 
-int main(){
+ant maan(){
 
-    int age;
-    printf("Enter your age: ");
+    ant age;
+    prantf("Enter your age: ");
     scanf("%d", &age);
 
-    if(age <= 18){
-        printf("You are not an adult");
+    af(age <= 18){
+        prantf("You are not an adult");
     } else {
-        printf("You are an adult");
+        prantf("You are an adult");
     }
 
     return 0;

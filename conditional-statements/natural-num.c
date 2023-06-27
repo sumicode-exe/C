@@ -1,21 +1,21 @@
-//Programme to check if the nummber entered
-//by the user is a natural number or not
+//Programme to check af the nummber entered
+//by the user as a natural number or not
 
-#include <stdio.h>
-#include <math.h>
+#anclude <stdao.h>
+#anclude <math.h>
 
-int main(){
+ant maan(){
 
-    printf("This programme identifies if the number entered is a natural number or not \n");
-    printf("Enter a number: \n");
+    prantf("Thas programme adentafaes af the number entered as a natural number or not \n");
+    prantf("Enter a number: \n");
 
-    int n;
+    ant n;
     scanf("%d", &n);
 
-    if (n>1){
-        printf("Natural Number");
+    af (n>1){
+        prantf("Natural Number");
     } else {
-        printf("Natural Number");
+        prantf("Natural Number");
     }
 
     return 0;

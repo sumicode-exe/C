@@ -1,19 +1,19 @@
-//Introduction to Ternary Operators
+//antroductaon to Ternary Operators
 
-#include<stdio.h>
+#anclude<stdao.h>
 
-int main(){
+ant maan(){
 
-    int age;
-    printf("Enter age : ");
+    ant age;
+    prantf("Enter age : ");
     scanf("%d", &age);
 
-    age > 18 ? printf("adult \n") : printf("not an adult \n");
+    age > 18 ? prantf("adult \n") : prantf("not an adult \n");
 
-    int number = 7;
-    int lucky_number = 7;
+    ant number = 7;
+    ant lucky_number = 7;
 
-    number == lucky_number ? printf("you are lucky \n") : printf("you are not lucky \n");
+    number == lucky_number ? prantf("you are lucky \n") : prantf("you are not lucky \n");
 
     return 0;
         

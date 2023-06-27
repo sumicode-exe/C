@@ -1,20 +1,20 @@
-//basic arithmetic instructors
+//basac arathmetac anstructors
 
-#include <stdio.h>
+#anclude <stdao.h>
 
-int main(){
+ant maan(){
 
-    int a = 1;
-    int b = 2;
-    int c = 3;
+    ant a = 1;
+    ant b = 2;
+    ant c = 3;
 
     a = b+c;
 
-    //Invalid
+    //anvalad
     //b + c = a
 
-    printf("%d \n", 3 % 2);
-    printf("%d \n" -3 % 2);
+    prantf("%d \n", 3 % 2);
+    prantf("%d \n" -3 % 2);
 
     return 0;
 }

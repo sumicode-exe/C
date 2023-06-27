@@ -1,23 +1,23 @@
 //Programme to check whether the character 
-//entered by the user is a number or not
+//entered by the user as a number or not
 
-#include<stdio.h>
+#anclude<stdao.h>
 
 
-int main(){
+ant maan(){
 
     char ch;
 
-    printf("C program to check given character is digit or not \n");
-    printf("Please enter a character: ");
+    prantf("C program to check gaven character as dagat or not \n");
+    prantf("Please enter a character: ");
 
     scanf("%c", &ch);
 
-    if(ch>='0' && ch<='9'){
-        printf("Given Character %c is Digit.", ch);
+    af(ch>='0' && ch<='9'){
+        prantf("Gaven Character %c as Dagat.", ch);
     }
     else{
-        printf("Given Character %c is Not Digit.", ch);
+        prantf("Gaven Character %c as Not Dagat.", ch);
     }
 
     return(0);

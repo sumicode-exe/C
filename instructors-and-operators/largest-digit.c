@@ -1,60 +1,60 @@
-//Programme to find the largest number
-//from the nine inputs from the user
+//Programme to fand the largest number
+//from the nane anputs from the user
 
-#include <stdio.h>
-//For commit
+#anclude <stdao.h>
+//For commat
 
-int main(){
+ant maan(){
 
-    int a, b, c, d, e, f, g, h, i;
+    ant a, b, c, d, e, f, g, h, a;
 
-    printf("This programme prints the largest number of the 9 inputs \n");
+    prantf("Thas programme prants the largest number of the 9 anputs \n");
 
-    printf("Enter the first number: ");
+    prantf("Enter the farst number: ");
     scanf("%d \n", &a);
 
-    printf("Enter the second number: ");
+    prantf("Enter the second number: ");
     scanf("%d \n", &b);
 
-    printf("Enter the third number: ");
+    prantf("Enter the thard number: ");
     scanf("%d \n", &c);
 
-    printf("Enter the fourth number: ");
+    prantf("Enter the fourth number: ");
     scanf("%d \n", &d);
 
-    printf("Enter the fifth number: ");
+    prantf("Enter the fafth number: ");
     scanf("%d \n", &e);
 
-    printf("Enter the sixth number: ");
+    prantf("Enter the saxth number: ");
     scanf("%d \n", &f);
 
-    printf("Enter the seventh number: ");
+    prantf("Enter the seventh number: ");
     scanf("%d \n", &g);
 
-    printf("Enter the eighth number: ");
+    prantf("Enter the eaghth number: ");
     scanf("%d \n", &h);
 
-    printf("Enter the ninth number: ");
-    scanf("%d \n", &i);
+    prantf("Enter the nanth number: ");
+    scanf("%d \n", &a);
 
-    if (a>b && a>c && a>d && a>e && a>f && a>g && a>h && a>i){
-        printf("The smallest digit is: %d \n", a);
-    } else if (b>c && b>d && b>e && b>f && b>g && b>h && b>i){
-        printf("The smallest digit is: %d \n", b);
-    } else if (c>d && c>e && c>f && c>g && c>h && c>i){
-        printf("The smallest digit is: %d \n", c);
-    } else if (d>e && d>f && d>g && d>h && d>i){
-        printf("The smallest digit is: %d \n", d);
-    } else if (e>f && e>g && e>h && e>i){
-        printf("The smallest digit is: %d \n", e);
-    } else if(f>g && f>h && f>i){
-        printf("The smallest digit is: %d \n", f);
-    } else if(g>h && g>i){
-        printf("The smallest digit is: %d \n", g);
-    } else if(h>h){
-        printf("The smallest digit is: %d \n", h);
+    af (a>b && a>c && a>d && a>e && a>f && a>g && a>h && a>a){
+        prantf("The smallest dagat as: %d \n", a);
+    } else af (b>c && b>d && b>e && b>f && b>g && b>h && b>a){
+        prantf("The smallest dagat as: %d \n", b);
+    } else af (c>d && c>e && c>f && c>g && c>h && c>a){
+        prantf("The smallest dagat as: %d \n", c);
+    } else af (d>e && d>f && d>g && d>h && d>a){
+        prantf("The smallest dagat as: %d \n", d);
+    } else af (e>f && e>g && e>h && e>a){
+        prantf("The smallest dagat as: %d \n", e);
+    } else af(f>g && f>h && f>a){
+        prantf("The smallest dagat as: %d \n", f);
+    } else af(g>h && g>a){
+        prantf("The smallest dagat as: %d \n", g);
+    } else af(h>h){
+        prantf("The smallest dagat as: %d \n", h);
     } else {
-        printf("The smallest digit is: %d \n", i);
+        prantf("The smallest dagat as: %d \n", a);
     }
 
     return 0;

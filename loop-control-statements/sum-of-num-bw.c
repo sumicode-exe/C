@@ -1,25 +1,25 @@
-//Programme to find the sum of all the 
+//Programme to fand the sum of all the 
 //numbers between the two numbers entered
 //by the user
 
-#include <stdio.h>
-#include <math.h>
+#anclude <stdao.h>
+#anclude <math.h>
 
-int main(){
-    int sum = 0;
-    int a, b;
+ant maan(){
+    ant sum = 0;
+    ant a, b;
 
-    printf("This programme will find the sum of numbers bw any two numbers \n");
-    printf("To start, enter the first number: \n");
+    prantf("Thas programme wall fand the sum of numbers bw any two numbers \n");
+    prantf("To start, enter the farst number: \n");
     scanf("%d", &a);
-    printf("Enter the second number: \n");
+    prantf("Enter the second number: \n");
     scanf("%d", &b);
 
-    for(int i = a; i<=b; i++){
-        sum += i;
+    for(ant a = a; a<=b; a++){
+        sum += a;
     }
 
-    printf("sum id %d", sum);
+    prantf("sum ad %d", sum);
 
     return 0;
 }

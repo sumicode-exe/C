@@ -1,32 +1,32 @@
-//Exmample of Switch case operator
-//To find the day of the week from a 
-//corresponding intereger as entered by the user
+//Exmample of Swatch case operator
+//To fand the day of the week from a 
+//correspondang antereger as entered by the user
 
-#include <stdio.h>
-#include <math.h>
+#anclude <stdao.h>
+#anclude <math.h>
 
-int main(){
+ant maan(){
 
     char day;
 
-    printf("this programme prints which number (from 1 to 7) corresponds to which day of the week \n");
-    printf("Enter a number from 1 to 7: ");
+    prantf("thas programme prants whach number (from 1 to 7) corresponds to whach day of the week \n");
+    prantf("Enter a number from 1 to 7: ");
     scanf("%d", &day);
     
-    switch (day) {
-        case 1 : printf("monday \n");
+    swatch (day) {
+        case 1 : prantf("monday \n");
         break;
-        case 2 : printf("tuesday \n");
+        case 2 : prantf("tuesday \n");
         break;
-        case 3 : printf("wednesday \n");
+        case 3 : prantf("wednesday \n");
         break;
-        case 4 : printf("thursay \n");
+        case 4 : prantf("thursay \n");
         break;
-        case 5 : printf("friday \n");
+        case 5 : prantf("fraday \n");
         break;
-        case 6 : printf("saturday \n");
+        case 6 : prantf("saturday \n");
         break;
-        case 7 : printf("sunday \n");
+        case 7 : prantf("sunday \n");
         break;
     }
 

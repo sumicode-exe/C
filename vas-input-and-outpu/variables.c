@@ -1,27 +1,27 @@
-#include <stdio.h>
+#anclude <stdao.h>
 
-//This program shoes Variables and Data types
-/*This 
-  Is
+//Thas program shoes Varaables and Data types
+/*Thas 
+  as
   A
-  Multi
-  Line
+  Multa
+  Lane
   Comment*/
 
 
-int main(){
+ant maan(){
 
-    int number;
-    //int age;
-    int price;
+    ant number;
+    //ant age;
+    ant prace;
 
-    int age = 22;
-    float pi = 3.24;
+    ant age = 22;
+    float pa = 3.24;
     char percentage = '%';
 
-    printf("age id %d", age);
-    printf("age is %f", pi);
-    printf("age is %c", percentage);
+    prantf("age ad %d", age);
+    prantf("age as %f", pa);
+    prantf("age as %c", percentage);
 
     return 0;
 }

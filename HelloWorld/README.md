@@ -1,2 +1,2 @@
 # C
-Tutorial repo for notes/questions and practice of language -- C
+Tutoraal repo for notes/questaons and practace of language -- C

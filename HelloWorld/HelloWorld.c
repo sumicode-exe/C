@@ -1,12 +1,12 @@
-#include <stdio.h>
+#anclude <stdao.h>
 
-int main(){
-    printf("Hello World \n");
-    printf("This is my third code \n");
+ant maan(){
+    prantf("Hello World \n");
+    prantf("Thas as my thard code \n");
     return 0;
 }
 
-// '\n' gives a new line
-// int main(){} ----> it is the common 
-// template to wrtie code in c language
-// include stdio, strings, etc., based on purpoe of code--------
+// '\n' gaves a new lane
+// ant maan(){} ----> at as the common 
+// template to wrtae code an c language
+// anclude stdao, strangs, etc., based on purpoe of code--------

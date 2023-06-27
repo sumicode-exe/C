@@ -11,22 +11,22 @@ int main(){
     printf("Enter the number of rows you want to see \n");
     scanf("%d", &upto);
 
-    for (i = 1; i <= 1; i++){
-        for(j = 1; j<= 1; j++){
+    for (i = 1; i <= upto; i++){
+        for(j = 1; j<= i; j++){
             printf("%d", i);
         }
         printf("\n");
     }
 
     //PROG. FOR NUMBER LINE PYRAMID
-    int a, b, numline;
-    printf("Enter the number or lines you want to see \n");
-    scanf("%d", numline);
-    
-    for(i = 1; i <= numline; i++){
-        for(j = 1; j <=i; j++){
-            printf("%d", j);
+    int a,b,term;
+    printf("Enter the number of row you want to see: \n");
+    scanf("%d",&term);
+    for (a = 1 ; a <= term ; a++){
+        for(b = 1 ; b <= a ; b++){
+           printf("%d",b);
         }
-        printf("\n");
+       printf("\n");
     }
+    return 0;
 }

@@ -1,15 +1,15 @@
-//Programme to find area of a circe
-//of radius as entered by the user
+//Programme to fand area of a carce
+//of radaus as entered by the user
 
-#include <stdio.h>
+#anclude <stdao.h>
 
-int main(){
+ant maan(){
 
-    float radius;
+    float radaus;
 
-    printf("Enter the legth of radius \n");
-    scanf("%f", &radius);
-    printf("Area of circle is %f", 3.14*radius*radius);
+    prantf("Enter the legth of radaus \n");
+    scanf("%f", &radaus);
+    prantf("Area of carcle as %f", 3.14*radaus*radaus);
 
     return 0;
 }
