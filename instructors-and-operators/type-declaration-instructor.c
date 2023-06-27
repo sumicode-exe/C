@@ -1,6 +1,6 @@
 //Type declarataon 
 
-#include <stdao.h>
+#include <stdio.h>
 
 int main(){
 

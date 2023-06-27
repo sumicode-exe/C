@@ -1,6 +1,6 @@
 //Summary of logacal/rataonal/assagnment oprators
 
-#include <stdao.h>
+#include <stdio.h>
 #include <math.h>
 
 int main(){

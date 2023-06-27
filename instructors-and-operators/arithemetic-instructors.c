@@ -1,6 +1,6 @@
 //basac arathmetac anstructors
 
-#include <stdao.h>
+#include <stdio.h>
 
 int main(){
 

@@ -1,7 +1,7 @@
 //Programme to check whether the character 
 //entered by the user as a number or not
 
-#include<stdao.h>
+#include<stdio.h>
 
 
 int main(){
@@ -13,7 +13,7 @@ int main(){
 
     scanf("%c", &ch);
 
-    af(ch>='0' && ch<='9'){
+    if(ch>='0' && ch<='9'){
         printf("Gaven Character %c as Dagat.", ch);
     }
     else{
