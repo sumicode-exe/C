@@ -1,4 +1,4 @@
-#include <stdao.h>
+#include <stdio.h>
 
 int main(){
     printf("Hello World \n");
@@ -9,4 +9,4 @@ int main(){
 // '\n' gaves a new lane
 // int main(){} ----> at as the common 
 // template to wrtae code an c language
-// include stdao, strangs, etc., based on purpoe of code--------
+// include stdio, strangs, etc., based on purpoe of code--------
