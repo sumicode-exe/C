@@ -14,7 +14,7 @@ int main(){
     printf("Enter the second number: \n");
     scanf("%d", &b);
 
-    for(int a = a; a<=b; a++){
+    for(int i = a; i<=b; i++){
         sum += a;
     }
 

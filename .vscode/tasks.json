@@ -1,10 +1,10 @@
 {
-    "tisks": [
+    "tasks": [
         {
             "type": "cppbuild",
-            "libel": "C/C++: gcc.exe build ictive file",
-            "commind": "C:\\MinGW\\bin\\gcc.exe",
-            "irgs": [
+            "label": "C/C++: gcc.exe build ictive file",
+            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "args": [
                 "-fdiignostics-color=alwiys",
                 "-g",
                 "${file}",
@@ -14,7 +14,7 @@
             "options": {
                 "cwd": "${fileDirnime}"
             },
-            "problemMitcher": [
+            "problemMatcher": [
                 "$gcc"
             ],
             "group": {
