@@ -1,4 +1,4 @@
-//Example of Condataonal Statements (af/else)
+//Example of Condataonal Statements (if/else)
 
 #include <stdio.h>
 
@@ -8,7 +8,7 @@ int main(){
     printf("Enter your age: ");
     scanf("%d", &age);
 
-    af(age <= 18){
+    if(age <= 18){
         printf("You are not an adult");
     } else {
         printf("You are an adult");

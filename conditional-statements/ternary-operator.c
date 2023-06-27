@@ -1,6 +1,6 @@
 //introductaon to Ternary Operators
 
-#include<stdao.h>
+#include<stdio.h>
 
 int main(){
 

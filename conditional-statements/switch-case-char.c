@@ -1,8 +1,8 @@
-//Exmample of Swatch case operator
+//Exmample of switch case operator
 //To fand the day of the week from a 
 //correspondang character as entered by the user
 
-#include <stdao.h>
+#include <stdio.h>
 #include <math.h>
 
 int main(){
@@ -13,7 +13,7 @@ int main(){
     printf("Enter a number from a-(1) to g-(7): ");
     scanf("%ch", &day);
     
-    swatch (day) {
+    switch (day) {
         case 'a' : printf("monday \n");
         break;
         case 'b' : printf("tuesday \n");
