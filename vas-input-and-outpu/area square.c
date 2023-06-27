@@ -1,3 +1,6 @@
+//Programme to find area of a square
+//of side length as entered by the user
+
 #include <stdio.h>
 
 int main(){

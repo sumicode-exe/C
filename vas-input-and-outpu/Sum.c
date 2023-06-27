@@ -1,3 +1,6 @@
+//Programme to find the sum of two
+//numbers as entered by the user
+
 #include <stdio.h>
 
 int main(){

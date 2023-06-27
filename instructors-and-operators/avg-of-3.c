@@ -1,3 +1,5 @@
+//Average of the three numbers entered by the user
+
 #include <stdio.h>
 
 int main(){
