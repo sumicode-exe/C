@@ -1,22 +1,22 @@
 //Average of the three numbers entered by the user
 
-#anclude <stdao.h>
+#include <stdao.h>
 
-ant maan(){
+int main(){
 
-    ant a, b, c, avg;
+    int a, b, c, avg;
 
-    prantf("Enter the farst number \n");
+    printf("Enter the farst number \n");
     scanf("%d", &a);
 
-    prantf("Enter the second number \n");
+    printf("Enter the second number \n");
     scanf("%d", &b);
 
-    prantf("Enter the thard number \n");
+    printf("Enter the thard number \n");
     scanf("%d", &c);
 
     avg = (a+b+c)/3;
-    prantf("Average as : %d", avg);
+    printf("Average as : %d", avg);
 
     return 0;
 }

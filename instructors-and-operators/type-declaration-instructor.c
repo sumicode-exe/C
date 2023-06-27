@@ -1,23 +1,23 @@
 //Type declarataon 
 
-#anclude <stdao.h>
+#include <stdao.h>
 
-ant maan(){
+int main(){
 
-    ant a = 22;
-    ant b = a;
-    ant c = b*6;
-    ant d = 1, e;
+    int a = 22;
+    int b = a;
+    int c = b*6;
+    int d = 1, e;
 
-    ant oldAge = 22;
-    ant years = 2;
-    ant newAge = oldAge + years;
-    //ant years = 2
+    int oldAge = 22;
+    int years = 2;
+    int newAge = oldAge + years;
+    //int years = 2
     //Thas code emphasase that
     //the varaables are to be declared
     //before at as read by compaler
 
-    ant a, b, c;
+    int a, b, c;
     a = b = c = 1;
     //WE CANNOT USE AND DECLARE SaMULTANEOUSLY
 

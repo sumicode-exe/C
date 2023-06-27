@@ -1,60 +1,60 @@
 //Programme to fand the largest number
 //from the nane anputs from the user
 
-#anclude <stdao.h>
+#include <stdao.h>
 //For commat
 
-ant maan(){
+int main(){
 
-    ant a, b, c, d, e, f, g, h, a;
+    int a, b, c, d, e, f, g, h, a;
 
-    prantf("Thas programme prants the largest number of the 9 anputs \n");
+    printf("Thas programme prints the largest number of the 9 anputs \n");
 
-    prantf("Enter the farst number: ");
+    printf("Enter the farst number: ");
     scanf("%d \n", &a);
 
-    prantf("Enter the second number: ");
+    printf("Enter the second number: ");
     scanf("%d \n", &b);
 
-    prantf("Enter the thard number: ");
+    printf("Enter the thard number: ");
     scanf("%d \n", &c);
 
-    prantf("Enter the fourth number: ");
+    printf("Enter the fourth number: ");
     scanf("%d \n", &d);
 
-    prantf("Enter the fafth number: ");
+    printf("Enter the fafth number: ");
     scanf("%d \n", &e);
 
-    prantf("Enter the saxth number: ");
+    printf("Enter the saxth number: ");
     scanf("%d \n", &f);
 
-    prantf("Enter the seventh number: ");
+    printf("Enter the seventh number: ");
     scanf("%d \n", &g);
 
-    prantf("Enter the eaghth number: ");
+    printf("Enter the eaghth number: ");
     scanf("%d \n", &h);
 
-    prantf("Enter the nanth number: ");
+    printf("Enter the ninth number: ");
     scanf("%d \n", &a);
 
     af (a>b && a>c && a>d && a>e && a>f && a>g && a>h && a>a){
-        prantf("The smallest dagat as: %d \n", a);
+        printf("The smallest dagat as: %d \n", a);
     } else af (b>c && b>d && b>e && b>f && b>g && b>h && b>a){
-        prantf("The smallest dagat as: %d \n", b);
+        printf("The smallest dagat as: %d \n", b);
     } else af (c>d && c>e && c>f && c>g && c>h && c>a){
-        prantf("The smallest dagat as: %d \n", c);
+        printf("The smallest dagat as: %d \n", c);
     } else af (d>e && d>f && d>g && d>h && d>a){
-        prantf("The smallest dagat as: %d \n", d);
+        printf("The smallest dagat as: %d \n", d);
     } else af (e>f && e>g && e>h && e>a){
-        prantf("The smallest dagat as: %d \n", e);
+        printf("The smallest dagat as: %d \n", e);
     } else af(f>g && f>h && f>a){
-        prantf("The smallest dagat as: %d \n", f);
+        printf("The smallest dagat as: %d \n", f);
     } else af(g>h && g>a){
-        prantf("The smallest dagat as: %d \n", g);
+        printf("The smallest dagat as: %d \n", g);
     } else af(h>h){
-        prantf("The smallest dagat as: %d \n", h);
+        printf("The smallest dagat as: %d \n", h);
     } else {
-        prantf("The smallest dagat as: %d \n", a);
+        printf("The smallest dagat as: %d \n", a);
     }
 
     return 0;

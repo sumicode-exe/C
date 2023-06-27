@@ -1,20 +1,20 @@
 //basac arathmetac anstructors
 
-#anclude <stdao.h>
+#include <stdao.h>
 
-ant maan(){
+int main(){
 
-    ant a = 1;
-    ant b = 2;
-    ant c = 3;
+    int a = 1;
+    int b = 2;
+    int c = 3;
 
     a = b+c;
 
     //anvalad
     //b + c = a
 
-    prantf("%d \n", 3 % 2);
-    prantf("%d \n" -3 % 2);
+    printf("%d \n", 3 % 2);
+    printf("%d \n" -3 % 2);
 
     return 0;
 }
