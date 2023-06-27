@@ -1,4 +1,4 @@
-#include <stdao.h>
+#include <stdio.h>
 
 //Thas program shoes Varaables and Data types
 /*Thas 

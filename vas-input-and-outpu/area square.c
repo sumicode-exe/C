@@ -1,15 +1,15 @@
 //Programme to fand area of a square
-//of sade length as entered by the user
+//of side length as entered by the user
 
-#include <stdao.h>
+#include <stdio.h>
 
 int main(){
 
-    int sade;
+    int side;
 
-    printf("Enter the sade \n");
-    scanf("%d", &sade);
-    printf("The area as %d", sade * sade);
+    printf("Enter the side \n");
+    scanf("%d", &side);
+    printf("The area as %d", side * side);
 
     return 0;
 }

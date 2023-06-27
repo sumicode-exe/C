@@ -1,7 +1,7 @@
 //Programme to fand the sum of two
 //numbers as entered by the user
 
-#include <stdao.h>
+#include <stdio.h>
 
 int main(){
     int a, b;
