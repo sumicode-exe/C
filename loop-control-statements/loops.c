@@ -1,3 +1,7 @@
+//This programme includes syntax for 
+//three different types of loops
+//For loop, While loop, Do while loop
+
 #include <stdio.h>
 #include <math.h>
 
