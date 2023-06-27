@@ -3,6 +3,7 @@
 
 
 int main() {
+
     int n,i,j,k,samp=1;
   
     printf("Enter the number of rows in pyramid of stars you want to see ");
@@ -30,5 +31,44 @@ int main() {
         samp = samp + 1;
         printf("\n");
     }
+
+
+    /*
+    //NEW WITH COKOUR AND DELAY
+    int row, c, tmp, color = 1;
+    while(!kbhit()){
+        if(color == 7)
+        color = 1;
+        textcolor(color);
+        tmp = 5;
+        for(row = 1; row <= 5; row ++){
+            for(c = 1; c < tmp; c++)
+            cprintf(" ");
+            tmp--;
+
+            for(c=1; c < tmp; c++)
+            printf("*");
+            printf("\n");
+        }
+
+        delay(200);
+        textcolor(color);
+        tmp = 1;
+         
+        for(row = 5; row >= 1; row --){
+            for (c = 1; c < tmp; c++)
+            printf(" ");
+            tmp++;
+
+            for (c = 1; c <= 2*row -1; c++)
+            printf("*");
+            printf("\n");
+        }
+        delay(200);
+        color++;
+    }   
+
+*/
+
  return 0;
 }
