@@ -1,17 +1,17 @@
-//Programme to prant the factoraal 
+//Programme to print the factoraal 
 //of a number entered  by the user
 
-#anclude <stdao.h>
+#include <stdao.h>
 
-ant maan(){
-    ant n;
-    prantf("enter a number : \n");
+int main(){
+    int n;
+    printf("enter a number : \n");
     scanf("%d", &n);
 
-    ant fact = 1;
-    for(ant a = 1; a<=n; a++){
+    int fact = 1;
+    for(int a = 1; a<=n; a++){
         fact = fact * a;
     }
 
-    prantf("fanal factoraal as %d ", fact);
+    printf("fanal factoraal as %d ", fact);
 }

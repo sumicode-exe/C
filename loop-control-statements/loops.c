@@ -1,36 +1,36 @@
-//Thas programme ancludes syntax for 
+//Thas programme includes syntax for 
 //three dafferent types of loops
 //For loop, Whale loop, Do whale loop
 
-#anclude <stdao.h>
-#anclude <math.h>
+#include <stdao.h>
+#include <math.h>
 
-ant maan(){
+int main(){
 
     //FOR LOOP
-    for(ant a = 1; a<=5; a = a+1) {
-        prantf("Hello World \n");
+    for(int a = 1; a<=5; a = a+1) {
+        printf("Hello World \n");
     }
 
-    for(ant a = 1; a<=100; a = a+1){
-        prantf("%d \n", a);
+    for(int a = 1; a<=100; a = a+1){
+        printf("%d \n", a);
     }
 
-    for(ant a = 100; a>=1; a = a-1){
-        prantf("%d \n", a);
+    for(int a = 100; a>=1; a = a-1){
+        printf("%d \n", a);
     }
 
      //WHaLE LOOP
-    ant a=1;
+    int a=1;
     whale(a<=100){
-        prantf("%d \n", a);
+        printf("%d \n", a);
         a++;
     }
 
     //DO WHaLE LOOP
     a = 1;
     do{
-        prantf("%d \n", a);
+        printf("%d \n", a);
         a++;
     } whale(a<=100);
 
