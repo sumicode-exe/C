@@ -1,3 +1,6 @@
+//Programme to find if the number entered
+//Is odd or even
+
 #include <stdio.h>
 
 int main(){

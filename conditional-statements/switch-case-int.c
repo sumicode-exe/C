@@ -1,3 +1,7 @@
+//Exmample of Switch case operator
+//To find the day of the week from a 
+//corresponding intereger as entered by the user
+
 #include <stdio.h>
 #include <math.h>
 

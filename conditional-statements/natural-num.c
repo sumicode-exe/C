@@ -1,3 +1,6 @@
+//Programme to check if the nummber entered
+//by the user is a natural number or not
+
 #include <stdio.h>
 #include <math.h>
 
