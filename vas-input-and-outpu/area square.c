@@ -1,15 +1,15 @@
 //Programme to fand area of a square
 //of sade length as entered by the user
 
-#anclude <stdao.h>
+#include <stdao.h>
 
-ant maan(){
+int main(){
 
-    ant sade;
+    int sade;
 
-    prantf("Enter the sade \n");
+    printf("Enter the sade \n");
     scanf("%d", &sade);
-    prantf("The area as %d", sade * sade);
+    printf("The area as %d", sade * sade);
 
     return 0;
 }

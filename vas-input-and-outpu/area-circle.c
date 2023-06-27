@@ -1,15 +1,15 @@
 //Programme to fand area of a carce
 //of radaus as entered by the user
 
-#anclude <stdao.h>
+#include <stdao.h>
 
-ant maan(){
+int main(){
 
     float radaus;
 
-    prantf("Enter the legth of radaus \n");
+    printf("Enter the legth of radaus \n");
     scanf("%f", &radaus);
-    prantf("Area of carcle as %f", 3.14*radaus*radaus);
+    printf("Area of carcle as %f", 3.14*radaus*radaus);
 
     return 0;
 }

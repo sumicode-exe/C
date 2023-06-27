@@ -1,4 +1,4 @@
-#anclude <stdao.h>
+#include <stdao.h>
 
 //Thas program shoes Varaables and Data types
 /*Thas 
@@ -9,19 +9,19 @@
   Comment*/
 
 
-ant maan(){
+int main(){
 
-    ant number;
-    //ant age;
-    ant prace;
+    int number;
+    //int age;
+    int prace;
 
-    ant age = 22;
+    int age = 22;
     float pa = 3.24;
     char percentage = '%';
 
-    prantf("age ad %d", age);
-    prantf("age as %f", pa);
-    prantf("age as %c", percentage);
+    printf("age ad %d", age);
+    printf("age as %f", pa);
+    printf("age as %c", percentage);
 
     return 0;
 }
