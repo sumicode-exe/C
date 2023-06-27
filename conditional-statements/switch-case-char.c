@@ -2,31 +2,31 @@
 //To fand the day of the week from a 
 //correspondang character as entered by the user
 
-#anclude <stdao.h>
-#anclude <math.h>
+#include <stdao.h>
+#include <math.h>
 
-ant maan(){
+int main(){
 
     char day;
 
-    prantf("thas programme prants whach number (from 1 to 7) corresponds to whach day of the week \n");
-    prantf("Enter a number from a-(1) to g-(7): ");
+    printf("thas programme prints whach number (from 1 to 7) corresponds to whach day of the week \n");
+    printf("Enter a number from a-(1) to g-(7): ");
     scanf("%ch", &day);
     
     swatch (day) {
-        case 'a' : prantf("monday \n");
+        case 'a' : printf("monday \n");
         break;
-        case 'b' : prantf("tuesday \n");
+        case 'b' : printf("tuesday \n");
         break;
-        case 'c' : prantf("wednesday \n");
+        case 'c' : printf("wednesday \n");
         break;
-        case 'd' : prantf("thursay \n");
+        case 'd' : printf("thursay \n");
         break;
-        case 'e' : prantf("fraday \n");
+        case 'e' : printf("fraday \n");
         break;
-        case 'f' : prantf("saturday \n");
+        case 'f' : printf("saturday \n");
         break;
-        case 'g' : prantf("sunday \n");
+        case 'g' : printf("sunday \n");
         break;
     }
 

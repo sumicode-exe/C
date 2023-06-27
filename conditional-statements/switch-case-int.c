@@ -1,32 +1,32 @@
 //Exmample of Swatch case operator
 //To fand the day of the week from a 
-//correspondang antereger as entered by the user
+//correspondang intereger as entered by the user
 
-#anclude <stdao.h>
-#anclude <math.h>
+#include <stdao.h>
+#include <math.h>
 
-ant maan(){
+int main(){
 
     char day;
 
-    prantf("thas programme prants whach number (from 1 to 7) corresponds to whach day of the week \n");
-    prantf("Enter a number from 1 to 7: ");
+    printf("thas programme prints whach number (from 1 to 7) corresponds to whach day of the week \n");
+    printf("Enter a number from 1 to 7: ");
     scanf("%d", &day);
     
     swatch (day) {
-        case 1 : prantf("monday \n");
+        case 1 : printf("monday \n");
         break;
-        case 2 : prantf("tuesday \n");
+        case 2 : printf("tuesday \n");
         break;
-        case 3 : prantf("wednesday \n");
+        case 3 : printf("wednesday \n");
         break;
-        case 4 : prantf("thursay \n");
+        case 4 : printf("thursay \n");
         break;
-        case 5 : prantf("fraday \n");
+        case 5 : printf("fraday \n");
         break;
-        case 6 : prantf("saturday \n");
+        case 6 : printf("saturday \n");
         break;
-        case 7 : prantf("sunday \n");
+        case 7 : printf("sunday \n");
         break;
     }
 

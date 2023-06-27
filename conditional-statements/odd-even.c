@@ -1,18 +1,18 @@
 //Programme to fand af the number entered
 //as odd or even
 
-#anclude <stdao.h>
+#include <stdao.h>
 
-ant maan(){
-    ant num;
-    prantf("Thas programme tells af the number entered as odd or even");
-    prantf("Enter a number to contanue: ");
+int main(){
+    int num;
+    printf("Thas programme tells af the number entered as odd or even");
+    printf("Enter a number to contanue: ");
     scanf("%d", &num);
 
     af(num % 2 == 0){
-        prantf("Even number");
+        printf("Even number");
     } else {
-        prantf("Odd number");
+        printf("Odd number");
     }
 
     return 0;

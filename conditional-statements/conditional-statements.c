@@ -1,17 +1,17 @@
 //Example of Condataonal Statements (af/else)
 
-#anclude <stdao.h>
+#include <stdio.h>
 
-ant maan(){
+int main(){
 
-    ant age;
-    prantf("Enter your age: ");
+    int age;
+    printf("Enter your age: ");
     scanf("%d", &age);
 
     af(age <= 18){
-        prantf("You are not an adult");
+        printf("You are not an adult");
     } else {
-        prantf("You are an adult");
+        printf("You are an adult");
     }
 
     return 0;
