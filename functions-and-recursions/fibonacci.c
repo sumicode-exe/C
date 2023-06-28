@@ -7,7 +7,7 @@ int main(){
     int n;
     printf("Enter a number: \n");
     scanf("%d", &n);
-    fib(n);
+    printf("fib of %d is : %d", n, fib(n));
     return 0;
 }
 
@@ -23,6 +23,6 @@ int fib(int n){
     int fibNm1 = fib(n-1);
     int fibNm2 = fib(n-2);
     int fibN = fibNm1 + fibNm2;
-    printf("fib of %d is : &d \n", n, fibN);
+    //printf("fib of %d is : &d \n", n, fibN);
     return fibN;
 }
