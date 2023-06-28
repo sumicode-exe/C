@@ -13,6 +13,6 @@ int main()
     printf("total price of 1 is: %f \n", price[0] + (0.18 * price[0]));
     printf("total price of 2 is: %f \n", price[1] + (0.18 * price[1]));
     printf("total price of 3 is: %f \n", price[2] + (0.18 * price[2]));
-
+ 
     return 0;
 }
