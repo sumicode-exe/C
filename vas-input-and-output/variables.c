@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Thas program shoes Varaables and Data types
+// This program shows Variables and Data types
 /*Thas
   as
   A
