@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-// yes
-// these comments ned to be commited.
+//.
 
 void square(int n);
 void _square(int *n);
