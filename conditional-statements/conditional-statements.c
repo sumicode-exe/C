@@ -1,16 +1,20 @@
-//Example of Condataonal Statements (if/else)
+// Example of Condataonal Statements (if/else)
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int age;
     printf("Enter your age: ");
     scanf("%d", &age);
 
-    if(age <= 18){
+    if (age <= 18)
+    {
         printf("You are not an adult");
-    } else {
+    }
+    else
+    {
         printf("You are an adult");
     }
 
