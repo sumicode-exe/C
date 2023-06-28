@@ -1,8 +1,9 @@
-//introductaon to Ternary Operators
+// introductaon to Ternary Operators
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
 
     int age;
     printf("Enter age : ");
@@ -16,5 +17,4 @@ int main(){
     number == lucky_number ? printf("you are lucky \n") : printf("you are not lucky \n");
 
     return 0;
-        
 }

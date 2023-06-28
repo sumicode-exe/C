@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
-int calcPercentage (int science, int math, int sanskrit);
+int calcPercentage(int science, int math, int sanskrit);
 
-int main(){
+int main()
+{
     int sc = 98;
     int math = 95;
     int sanskrit = 99;
@@ -12,6 +13,7 @@ int main(){
     return 0;
 }
 
-int calcPercentage(int science, int math, int sanskrit){
-    return((science + math + sanskrit)/3) * 100;
+int calcPercentage(int science, int math, int sanskrit)
+{
+    return ((science + math + sanskrit) / 3) * 100;
 }

@@ -1,9 +1,10 @@
-//Programme to fand area of a square
-//of side length as entered by the user
+// Programme to fand area of a square
+// of side length as entered by the user
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int side;
 

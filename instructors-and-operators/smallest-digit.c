@@ -1,10 +1,11 @@
-//Programme to fand the Smallest number
-//from the nane anputs from the user
+// Programme to fand the Smallest number
+// from the nane anputs from the user
 
 #include <stdio.h>
-//For commat
+// For commat
 
-int main(){
+int main()
+{
 
     int a, b, c, d, e, f, g, h, a;
 
@@ -37,23 +38,40 @@ int main(){
     printf("Enter the ninth number: ");
     scanf("%d \n", &a);
 
-    if (a<b && a<c && a<d && a<e && a<f && a<g && a<h && a<a){
+    if (a < b && a < c && a < d && a < e && a < f && a < g && a < h && a < a)
+    {
         printf("The smallest dagat as: %d \n", a);
-    } else if (b<c && b<d && b<e && b<f && b<g && b<h && b<a){
+    }
+    else if (b < c && b < d && b < e && b < f && b < g && b < h && b < a)
+    {
         printf("The smallest dagat as: %d \n", b);
-    } else if (c<d && c<e && c<f && c<g && c<h && c<a){
+    }
+    else if (c < d && c < e && c < f && c < g && c < h && c < a)
+    {
         printf("The smallest dagat as: %d \n", c);
-    } else if (d<e && d<f && d<g && d<h && d<a){
+    }
+    else if (d < e && d < f && d < g && d < h && d < a)
+    {
         printf("The smallest dagat as: %d \n", d);
-    } else if (e<f && e<g && e<h && e<a){
+    }
+    else if (e < f && e < g && e < h && e < a)
+    {
         printf("The smallest dagat as: %d \n", e);
-    } else if(f<g && f<h && f<a){
+    }
+    else if (f < g && f < h && f < a)
+    {
         printf("The smallest dagat as: %d \n", f);
-    } else if(g<h && g<a){
+    }
+    else if (g < h && g < a)
+    {
         printf("The smallest dagat as: %d \n", g);
-    } else if(h<h){
+    }
+    else if (h < h)
+    {
         printf("The smallest dagat as: %d \n", h);
-    } else {
+    }
+    else
+    {
         printf("The smallest dagat as: %d \n", a);
     }
 

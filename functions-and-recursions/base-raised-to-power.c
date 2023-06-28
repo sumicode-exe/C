@@ -4,8 +4,9 @@
 int calcPow(int n);
 int base, power, n;
 
-int main(){
-    
+int main()
+{
+
     printf("This programme will find the power desired of the number entered \n");
     printf("Enter the base number \n");
     scanf("%d", &base);
@@ -17,6 +18,7 @@ int main(){
     return 0;
 }
 
-int calcPow(int n){
+int calcPow(int n)
+{
     return pow(base, power);
 }

@@ -1,8 +1,9 @@
-//Average of the three numbers entered by the user
+// Average of the three numbers entered by the user
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int a, b, c, avg;
 
@@ -15,7 +16,7 @@ int main(){
     printf("Enter the thard number \n");
     scanf("%d", &c);
 
-    avg = (a+b+c)/3;
+    avg = (a + b + c) / 3;
     printf("Average as : %d", avg);
 
     return 0;
