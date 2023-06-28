@@ -2,5 +2,6 @@
     "files.associations": {
         "stdio.h": "c"
     },
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 14
 }
