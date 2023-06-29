@@ -12,3 +12,4 @@
 #include <math.h>
 
 void printNumbers(int *arr, int n);
+void _printNUmbers(int arr[], int n);
