@@ -1,12 +1,12 @@
-//ARRAYS AS FUNCTION ARGUMENTS AND SYNTAX
+// ARRAYS AS FUNCTION ARGUMENTS AND SYNTAX
 
-//FUNCTION DECLARATION
-//  void printNumbers(int arr[], int n);
-// or
-//  void printNumbers(int *arr, int n);
+// FUNCTION DECLARATION
+//   void printNumbers(int arr[], int n);
+//  or
+//   void printNumbers(int *arr, int n);
 
-//FUNCTION CALL
-//  printNumbers(arr, n);
+// FUNCTION CALL
+//   printNumbers(arr, n);
 
 #include <stdio.h>
 #include <math.h>
@@ -14,16 +14,27 @@
 void printNumbers(int *arr, int n);
 void _printNUmbers(int arr[], int n);
 
-int main(){
-    int arr[] = {1, 2, 3 ,4 , 5, 6};
+int main()
+{
+    int arr[] = {1, 2, 3, 4, 5, 6};
     printNumbers(arr, 6);
     printNumbers(arr, 6);
     return 0;
 }
 
-void printNumbers(int *arr, int n){
-    for int(i = 0l i<n; i++){
+void printNumbers(int *arr, int n)
+{
+    for
+        int(i = 0l i < n; i++)
+        {
+            printf("%d : %d \n", i, arr[i]);
+        }
+}
+
+void _printNUmbers(int *arr, int n)
+{
+    for (int i = 0; i < n; i++)
+    {
         printf("%d : %d \n", i, arr[i]);
     }
 }
-
