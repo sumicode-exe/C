@@ -6,7 +6,7 @@ int main()
     int price[3];
 
     printf("Cost of objects : ");
-    scanf("%f ", &price[0]);
+    scanf("%f", &price[0]);
     scanf("%f", &price[1]);
     scanf("%f", &price[2]);
 
