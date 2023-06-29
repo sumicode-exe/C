@@ -9,3 +9,4 @@
 //  printNumbers(arr, n);
 
 #include <stdio.h>
+#include <math.h>
