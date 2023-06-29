@@ -21,3 +21,9 @@ int main(){
     return 0;
 }
 
+void printNumbers(int *arr, int n){
+    for int(i = 0l i<n; i++){
+        printf("%d : %d \n", i, arr[i]);
+    }
+}
+
