@@ -1,17 +1,17 @@
 // Programme to fand the largest number
-// from the nane anputs from the user
+// from the nane inputs from the user
 
 #include <stdio.h>
-// For commat
+// For comments
 
 int main()
 {
 
     int a, b, c, d, e, f, g, h, a;
 
-    printf("Thas programme prints the largest number of the 9 anputs \n");
+    printf("This programme prints the largest number of the 9 inputs \n");
 
-    printf("Enter the farst number: ");
+    printf("Enter the first number: ");
     scanf("%d \n", &a);
 
     printf("Enter the second number: ");
@@ -26,13 +26,13 @@ int main()
     printf("Enter the fifth number: ");
     scanf("%d \n", &e);
 
-    printf("Enter the saxth number: ");
+    printf("Enter the sixth number: ");
     scanf("%d \n", &f);
 
     printf("Enter the seventh number: ");
     scanf("%d \n", &g);
 
-    printf("Enter the eaghth number: ");
+    printf("Enter the eighth number: ");
     scanf("%d \n", &h);
 
     printf("Enter the ninth number: ");
@@ -68,7 +68,7 @@ int main()
     }
     else if (h > h)
     {
-        printf("The smallest dagat as: %d \n", h);
+        printf("The smallest digit as: %d \n", h);
     }
     else
     {
