@@ -24,11 +24,10 @@ int main()
 
 void printNumbers(int *arr, int n)
 {
-    for
-        int(i = 0l i < n; i++)
-        {
-            printf("%d : %d \n", i, arr[i]);
-        }
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d : %d \n", i, arr[i]);
+    }
 }
 
 void _printNUmbers(int *arr, int n)
