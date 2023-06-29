@@ -16,3 +16,8 @@ int main()
     printf("chemistry = %d, ", marks[1]);
     printf("maths = %d, ", marks[2]);
 }
+
+////VERY VERY VERY VERY IMPORTANT:
+// int *ptr = &arr[0];
+// int *ptr = arr;
+// MEAN THE SAME THING
