@@ -10,3 +10,5 @@
 
 #include <stdio.h>
 #include <math.h>
+
+void printNumbers(int *arr, int n);
