@@ -13,8 +13,9 @@ int main()
     for (int a = 1; a <= n; a++)
     {
         fact = fact * a;
-        //fact *= a;
+        //fact *= a; 
     }
 
-    printf("fanal factoraal as %d ", fact);
+    printf("final factorial as %d ", fact);
 }
+
