@@ -17,7 +17,7 @@ int main()
     printf("maths = %d, ", marks[2]);
 }
 
-////VERY VERY VERY VERY IMPORTANT:
+////VERY VERY VERY VERY IMPORTANT : 
 // int *ptr = &arr[0];
 // int *ptr = arr;
 // MEAN THE SAME THING

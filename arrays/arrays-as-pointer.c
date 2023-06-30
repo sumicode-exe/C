@@ -6,6 +6,7 @@ int main()
 
     // input
     int *ptr = &aadhaar[0];
+    
     for (int i = 0; i<5; i++)
     {
         printf("%d index: ", i);
