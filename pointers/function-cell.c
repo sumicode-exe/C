@@ -21,12 +21,12 @@ int main()
 
 void square(int n)
 {
-    n = n * n;
+    n = n * n; //calling by value
     printf("square is : %d \n", n);
 }
 
 void _square(int *n)
 {
-    *n = *n * *n;
+    *n = *n * *n; //calling by function
     printf("square is : %d \n", *n);
 }
