@@ -14,6 +14,8 @@ int main()
     return 0;
 }
 
+
+//call by value
 void swap(int a, int b)
 {
     int t = a;
@@ -21,6 +23,7 @@ void swap(int a, int b)
     b = a;
 }
 
+//call by reference
 void _swap(int *a, int *b)
 {
     int t = *a;
