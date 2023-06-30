@@ -11,6 +11,8 @@ int main()
     return 0;
 }
 
+//CALL BY VALUE
+
 void printAdd(int n)
 {
     printf("address of n is : %d\n", &n);
