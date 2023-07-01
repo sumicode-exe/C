@@ -3,5 +3,6 @@
         "stdio.h": "c"
     },
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "C_Cpp.errorSquiggles": "enabled"
 }
