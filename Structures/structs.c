@@ -7,3 +7,9 @@ struct student {
     int roll;
     float cgpa; 
 };
+
+typedef struct ComputerEngineeringStudent{
+    int roll;
+    float cgpa;
+    char name[100];
+} coe;
