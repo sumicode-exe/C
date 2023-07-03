@@ -15,3 +15,4 @@ typedef struct ComputerEngineeringStudent{
 } coe;
 
 void printInfor(struct student s1);
+
