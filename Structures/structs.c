@@ -13,3 +13,5 @@ typedef struct ComputerEngineeringStudent{
     float cgpa;
     char name[100];
 } coe;
+
+void printInfor(struct student s1);
