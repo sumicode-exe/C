@@ -32,24 +32,24 @@ int main()
     printf("Roll No. = %d\n", s1.roll);
     printf("cgpa = %f\n", s1.cgpa);
 
-    //array of structures
+    // array of structures
     struct student IT[60];
     struct student COE[60];
     struct student ECE[60];
 
-    //declaration
+    // declaration
     struct student s2 = {"Rajat, 1552, 8.6"};
     struct student s3 = {0};
 
+    s2.roll = 96;
     printf("Roll No. of s2 = %d \n", s2.roll);
     printf("Roll No. of s3 = %d\n", s3.roll);
 
-    //pointer to structure
+    // pointer to structure
     struct student *ptr = &s1;
     printf("Student.name = %s\n", (*ptr).name);
     printf("Student.roll = %d\n", (*ptr).roll);
     printf("Student.cgpa = %f\n", (*ptr).cgpa);
 
-    //arrow operator
+    // arrow operator
 }
-
