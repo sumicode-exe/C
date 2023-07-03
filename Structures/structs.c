@@ -55,4 +55,17 @@ int main()
     printf("student->name = %s\n", ptr->name);
     printf("student->roll = %d\n", ptr->roll);
     printf("student->cgpa = %f\n", ptr->cgpa);
+
+    //Passing structure to function
+    printInfo(s1);
+
+    //typedef keyword
+    coe student1;
+    student1.roll = 1664;
+    student1.cgpa = 6.7;
+    strcpy(student1.name, "XYZ");
+
+    return 0;
 }
+
+
