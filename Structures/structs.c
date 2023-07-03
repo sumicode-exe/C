@@ -52,4 +52,7 @@ int main()
     printf("Student.cgpa = %f\n", (*ptr).cgpa);
 
     // arrow operator
+    printf("student->name = %s\n", ptr->name);
+    printf("student->roll = %d\n", ptr->roll);
+    printf("student->cgpa = %f\n", ptr->cgpa);
 }
