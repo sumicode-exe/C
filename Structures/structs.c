@@ -40,5 +40,16 @@ int main()
     //declaration
     struct student s2 = {"Rajat, 1552, 8.6"};
     struct student s3 = {0};
+
+    printf("Roll No. of s2 = %d \n", s2.roll);
+    printf("Roll No. of s3 = %d\n", s3.roll);
+
+    //pointer to structure
+    struct student *ptr = &s1;
+    printf("Student.name = %s\n", (*ptr).name);
+    printf("Student.roll = %d\n", (*ptr).roll);
+    printf("Student.cgpa = %f\n", (*ptr).cgpa);
+
+    //arrow operator
 }
 
