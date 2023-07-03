@@ -68,4 +68,7 @@ int main()
     return 0;
 }
 
-
+void printInfor(struct student s1){
+    printf("Student info : \n");
+    printf("Name = %s\n", s1.name);
+}
