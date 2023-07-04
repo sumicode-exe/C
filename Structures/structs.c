@@ -16,7 +16,7 @@ typedef struct ComputerEngineeringStudent
     char name[100];
 } coe;
 
-void printInfor(struct student s1);
+void printInfo(struct student s1);
 
 int main()
 {
@@ -56,10 +56,10 @@ int main()
     printf("student->roll = %d\n", ptr->roll);
     printf("student->cgpa = %f\n", ptr->cgpa);
 
-    //Passing structure to function
+    // Passing structure to function
     printInfo(s1);
 
-    //typedef keyword
+    // typedef keyword
     coe student1;
     student1.roll = 1664;
     student1.cgpa = 6.7;
@@ -68,7 +68,8 @@ int main()
     return 0;
 }
 
-void printInfor(struct student s1){
+void printInfo(struct student s1)
+{
     printf("Student info : \n");
     printf("Name = %s\n", s1.name);
 }
