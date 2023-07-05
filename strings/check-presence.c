@@ -6,9 +6,12 @@ void checkChar(char str[], char ch);
 int main()
 {
     char str[] = "MathematicsAndComputerScienceEngineering";
-    char ch = 'x';
+    char ch;
+    printf("Enter the character to find : ");
+    scanf("%c", &ch);
     checkChar(str, ch);
 }
+
 
 void checkChar(char str[], char ch)
 {
