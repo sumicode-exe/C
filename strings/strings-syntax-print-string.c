@@ -2,8 +2,10 @@
 #include <math.h>
 #include <string.h>
 
+
 void printString(char arr[]);
 void printStringPointer(char arr[]);
+
 
 int main()
 {
@@ -14,16 +16,26 @@ int main()
     char firstName[] = "Somya";
     char lastName[] = "Jha";
 
+    // printing string
     printString(name);
     printString(course);
     printString(firstName);
     printString(lastName);
 
+    // printing string with pointer
     printStringPointer(name);
     printStringPointer(course);
     printStringPointer(firstName);
     printStringPointer(lastName);
+
+    // printing using format specifier
+    print("%s\n", name);
+    print("%s\n", course);
+    print("%s\n", firstName);
+    print("%s\n", lastName);
 }
+
+
 
 // printing string
 void printString(char arr[])
@@ -35,6 +47,9 @@ void printString(char arr[])
     }
     printf("\n");
 }
+
+
+
 
 // printing string with pointer
 void printStringPointer(char arr[])
