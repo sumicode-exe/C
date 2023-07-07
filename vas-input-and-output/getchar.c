@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /* copy input to output; 1st version */
 int main()
