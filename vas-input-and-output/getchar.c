@@ -1,14 +1,13 @@
+// C program to implement getchar()
+// function to read single character
 #include <stdio.h>
-#include <string.h>
-
-/* copy input to output; 1st version */
+ 
+// Driver code
 int main()
 {
-    int c;
-    c = getchar();
-    while (c != EOF)
-    {
-        putchar(c);
-        c = getchar();
-    }
+    int character;
+    character = getchar();
+ 
+    printf("The entered character is : %c", character);
+    return 0;
 }
