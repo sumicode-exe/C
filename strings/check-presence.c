@@ -23,5 +23,6 @@ void checkChar(char str[], char ch)
             return;
         }
     }
+    
     printf("character is NOT present :(");
 }
