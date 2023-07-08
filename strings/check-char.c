@@ -4,7 +4,7 @@
 void checkChar(char str[], char ch);
 int main()
 {
-    char str[] = "ApnaCollege";
+    char str[] = "Halloajsdhsnasdefrtgyujkiuhr4ew";
     char ch = 'x';
     checkChar(str, ch);
 }
