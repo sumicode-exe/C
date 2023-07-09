@@ -10,6 +10,18 @@ int main()
     char firstName[] = "Somya";
     char lastName[] = "Jha";
 
+    char str[100];
+    char ch;
+    int i = 0;
+
+    while (ch != '\n'){
+        printf("enter a string: ");
+        scanf("%c", &ch);
+        str[i] = ch;
+        i++;
+    }
+    str[i] = '\0';
+    puts(str);
     // input a string
     // char firstName[40];
     // printf("Enter first name : ");
