@@ -33,7 +33,7 @@
 
 //4. int sort_by_length(char*, char*) - to sort the strings in non-decreasing
 //rder of their lengths. If two strings have the same
-length, then the lexicographically smaller string should appear first.
+//length, then the lexicographically smaller string should appear first.
 
 
 CONSTRAINTS:
