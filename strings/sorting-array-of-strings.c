@@ -23,8 +23,8 @@ You also need to implement the following four string string comparision function
 1. int lexicograhic_sort(char *, char*) - to sort the stringd lexicographically
 in a non decreasing order
 
-//2. int lexicographic_sort_reverse(char*, char*) - ro sort the strings in the lexicographhicalyy 
-//non increasing orded
+2. int lexicographic_sort_reverse(char*, char*) - ro sort the strings in the lexicographhicalyy 
+non increasing orded
 
 //3. int sort_by_number_of_distinct_characters(char*, char*) - to sort the strings in 
 //non-decreasing order of the  number of distinct characters present in them.
