@@ -52,3 +52,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+int lexicographic_sort(const char* a, const char* b) {
+    return strcmp(a, b);
+}
