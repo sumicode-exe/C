@@ -37,7 +37,7 @@
 
 
 //CONSTRAINTS:
-1. 1<= No of strings <= 50;
+//1. 1<= No of strings <= 50;
 2. 1<= Total length of all the strings <= 2500
 3. You have to write your own sorting function and you cannot 
 use the inbuilt qsort function 
