@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-void checkChar(char str[], char ch);
+int checkVowels(char str[], char ch);
+
 int main()
 {
 
@@ -11,22 +12,24 @@ int main()
     fgets(str, 50, stdin);
     puts(str);
 
-    char ch;
-    printf("Enter the letter to check: ");
-    scanf("%c", &ch);
+    // char ch;
+    // printf("Enter the letter to check: ");
+    // scanf("%c", &ch);
 
-    checkChar(str, ch);
+    checkVolwels(str);
 }
 
-void checkChar(char str[], char ch)
+int countVowels(char str[])
 {
+    int count = 0;
+
     for (int i = 0; str[i] != '\0'; i++)
     {
-        if (str[i] == ch)
+        if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||
+            str[i] == 'o' || str[i] == 'u')
         {
-            printf("character is present!");
-            return;
+            count++;
         }
     }
-    printf("character is NOT present:(");
+    return count;
 }
