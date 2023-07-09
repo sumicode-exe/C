@@ -101,7 +101,7 @@ void string_sort(char** arr,const int len,int (*cmp_func)(const char* a, const c
     }
 }
 
-nt main() 
+int main() 
 {
     int n;
     scanf("%d", &n);
