@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int checkVowels(char str[], char ch);
+int checkVowels(char str[]);
 
 int main()
 {
@@ -16,10 +16,12 @@ int main()
     // printf("Enter the letter to check: ");
     // scanf("%c", &ch);
 
-    checkVolwels(str);
+    checkVowels(str);
+    
 }
 
-int countVowels(char str[])
+
+int checkVowels(char str[])
 {
     int count = 0;
 
@@ -30,6 +32,8 @@ int countVowels(char str[])
         {
             count++;
         }
+       
     }
+     printf("number of vowels is : %d", count);
     return count;
 }
