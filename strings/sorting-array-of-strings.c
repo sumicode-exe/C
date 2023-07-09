@@ -15,7 +15,7 @@
 //The arguments passed to this function are:
 //1. an array of strings : arr
 //2. length of string array:  count
-3. pointer to the string comparison function: cmp_func
+//3. pointer to the string comparison function: cmp_func
 
 
 You also need to implement the following four string string comparision functions:
