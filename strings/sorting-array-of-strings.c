@@ -60,4 +60,79 @@ int lexicographic_sort_reverse(const char* a, const char* b) {
     return -strcmp(a, b);
 }
 
-uniqe_characters
+int uniqe_characters(const char *arr){
+    int uniqeCharacters = 0;      
+    int characters[26] = {0};
+    int i = -1;
+    while(++i < strlen(arr))
+        characters[arr[i]-'a']++;
+    for(i = 0 ; i < 26 ; i++)
+        if(characters[i])   uniqeCharacters++;
+    return uniqeCharacters;
+}
+int sort_by_number_of_distinct_characters(const char* a, const char* b) 
+{
+    int cmp = uniqe_characters(a) - uniqe_characters(b);
+    if(cmp == 0)      
+        cmp = lexicographic_sort(a,b);         
+    return cmp;
+}
+
+int sort_by_length(const char* a, const char* b) {
+    if(strlen(a)==strlen(b))
+    {
+        return strcmp(a,b)>0;
+    }
+    else {
+        return strlen(a) < strlen(b )? -1 : 1;
+    }
+}
+
+void string_sort(char** arr,const int len,int (*cmp_func)(const char* a, const char* b))
+{
+    for (int i = 0; i < len - 1; i++) {
+        for (int j = i+1; j < len; j++) {
+            if (cmp_func(arr[i], arr[j]) > 0) {
+                char* temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+}
+
+nt main() 
+{
+    int n;
+    scanf("%d", &n);
+  
+    char** arr;
+	arr = (char**)malloc(n * sizeof(char*));
+  
+    for(int i = 0; i < n; i++){
+        *(arr + i) = malloc(1024 * sizeof(char));
+        scanf("%s", *(arr + i));
+        *(arr + i) = realloc(*(arr + i), strlen(*(arr + i)) + 1);
+    }
+  
+    string_sort(arr, n, lexicographic_sort);
+    for(int i = 0; i < n; i++)
+        printf("%s\n", arr[i]);
+    printf("\n");
+
+    string_sort(arr, n, lexicographic_sort_reverse);
+    for(int i = 0; i < n; i++)
+        printf("%s\n", arr[i]); 
+    printf("\n");
+
+    string_sort(arr, n, sort_by_length);
+    for(int i = 0; i < n; i++)
+        printf("%s\n", arr[i]);    
+    printf("\n");
+
+    string_sort(arr, n, sort_by_number_of_distinct_characters);
+    for(int i = 0; i < n; i++)
+        printf("%s\n", arr[i]); 
+    printf("\n");
+}
+
