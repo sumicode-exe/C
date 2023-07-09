@@ -1,14 +1,14 @@
-//In order to access the memory address of a variable,
-//prepend it with  sign. For example, &val returns the
-//memory address of .
+//In order to access the memory address of a variable, val, 
+//prepend it with & sign. For example, &val returns the
+//memory address of val.
 
 //This memory address is assigned to a pointer and can
 //be shared among various functions. For example,  
-//will assign the memory address of  to pointer . 
+// int *p = &val will assign the memory address of val to pointer p. 
 //To access the content of the memory to which the 
 //pointer points, prepend it with a *. For example,
 //*p will return the value reflected by  and any 
-//modification to it will be reflected at the source ().
+//modification to it will be reflected at the source (val).
 
 #include <stdio.h>
 
