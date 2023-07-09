@@ -18,7 +18,7 @@
 //3. pointer to the string comparison function: cmp_func
 
 
-You also need to implement the following four string string comparision functions:
+//You also need to implement the following four string string comparision functions:
 
 1. int lexicograhic_sort(char *, char*) - to sort the stringd lexicographically
 in a non decreasing order
