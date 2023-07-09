@@ -7,6 +7,7 @@ int countLength(char arr[]);
 
 int main(){
     char name[100];
+    printf("Enter a string: ");
     fgets(name, 100, stdin);
     printf("length is : %d", countLength(name));
     return 0;
