@@ -36,12 +36,12 @@ order of their lengths. If two strings have the same
 length, then the lexicographically smaller string should appear first.
 
 
-//CONSTRAINTS:
-//1. 1<= No of strings <= 50;
-//2. 1<= Total length of all the strings <= 2500
-//3. You have to write your own sorting function and you cannot 
-//use the inbuilt qsort function 
-//4. The strings consists of lower case english alohabets only. 
+CONSTRAINTS:
+1. 1<= No of strings <= 50;
+2. 1<= Total length of all the strings <= 2500
+3. You have to write your own sorting function and you cannot 
+use the inbuilt qsort function 
+4. The strings consists of lower case english alohabets only. 
 
 //OUTPUT
 //The locked code-stub will check the logic of your code. The output consists 
