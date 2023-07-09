@@ -9,3 +9,7 @@
 
 //Given an array of strings, you need to implement a string_sort function which sorts the
 //strings according to a comparison function, i.e, you need to implement the function :
+
+void string_sort(const char **arr,const int cnt, int (*cmp_func)(const char* a, const char* b)){
+    
+}
