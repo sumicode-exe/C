@@ -5,7 +5,7 @@
 
 //A better implementation would be to write a sorting function that accepts a pointer to the
 //function that compares each pair of strings. Doing this will mean only passing a pointer to the
-sorting function with every new comparison strategy.
+//sorting function with every new comparison strategy.
 
 Given an array of strings, you need to implement a string_sort function which sorts the
 strings according to a comparison function, i.e, you need to implement the function :
