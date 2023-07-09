@@ -31,7 +31,7 @@
 //of two strings have the same number of distinct characters present in them, then the
 //lexicographically smaller string should appear first.
 
-4. int sort_by_length(char*, char*) - to sort the strings in non-decreasing
+//4. int sort_by_length(char*, char*) - to sort the strings in non-decreasing
 order of their lengths. If two strings have the same
 length, then the lexicographically smaller string should appear first.
 
