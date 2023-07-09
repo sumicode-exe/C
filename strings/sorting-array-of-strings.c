@@ -13,7 +13,7 @@
 
 
 //The arguments passed to this function are:
-1. an array of strings : arr
+//1. an array of strings : arr
 2. length of string array:  count
 3. pointer to the string comparison function: cmp_func
 
