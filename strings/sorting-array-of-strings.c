@@ -43,7 +43,7 @@ CONSTRAINTS:
 use the inbuilt qsort function 
 4. The strings consists of lower case english alohabets only. 
 
-//OUTPUT
-//The locked code-stub will check the logic of your code. The output consists 
-//of the strings sorted according to the four comparsion functions in the order 
-//mentioned in the problem statement.
+OUTPUT
+The locked code-stub will check the logic of your code. The output consists 
+of the strings sorted according to the four comparsion functions in the order 
+mentioned in the problem statement.
