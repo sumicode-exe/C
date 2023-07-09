@@ -20,7 +20,7 @@
 
 //You also need to implement the following four string string comparision functions:
 
-1. int lexicograhic_sort(char *, char*) - to sort the stringd lexicographically
+//1. int lexicograhic_sort(char *, char*) - to sort the stringd lexicographically
 in a non decreasing order
 
 2. int lexicographic_sort_reverse(char*, char*) - ro sort the strings in the lexicographhicalyy 
