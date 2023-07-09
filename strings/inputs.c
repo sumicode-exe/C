@@ -30,4 +30,6 @@ int main()
     printf("Enter full name : ");
     fgets(fullName, 40, stdin);
     puts(fullName);
+    printf("After reversing string is =%s", strrev(fullName));
+
 }

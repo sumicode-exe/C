@@ -16,7 +16,7 @@ void checkChar(char str[], char ch)
         {
             printf("character is present!");
             return;
-        }
+        } 
     }
     printf("character is NOT present:(");
 }
