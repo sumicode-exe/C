@@ -18,7 +18,7 @@ struct student
 
 int main()
 {
-     // declaration
+    // declaration
     // array of structures
     struct student IT[60];
     IT[0].roll = 1446;
@@ -35,7 +35,6 @@ int main()
     ECE[0].cgpa = 9.5;
     strcpy(ECE[0].name, "Shivank");
 
-   
     // s2.roll = 96;
     // printf("Roll No. of s2 = %d \n", s2.roll);
     // printf("Roll No. of s3 = %d\n", s3.roll);
@@ -51,7 +50,6 @@ int main()
     // printf("student->roll = %d\n", ptr->roll);
     // printf("student->cgpa = %f\n", ptr->cgpa);
 
-
     // // typedef keyword
     // coe student1;
     // student1.roll = 1664;
@@ -60,4 +58,3 @@ int main()
 
     return 0;
 }
-
