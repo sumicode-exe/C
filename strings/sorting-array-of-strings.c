@@ -23,7 +23,7 @@
 //1. int lexicograhic_sort(char *, char*) - to sort the stringd lexicographically
 //in a non decreasing order
 
-//2. int lexicographic_sort_reverse(char*, char*) - ro sort the strings in the lexicographhicalyy 
+//2. int lexicographic_sort_reverse(char*, char*) - to sort the strings in the lexicographhicalyy 
 //non increasing orded
 
 //3. int sort_by_number_of_distinct_characters(char*, char*) - to sort the strings in 
@@ -135,4 +135,3 @@ int main()
         printf("%s\n", arr[i]); 
     printf("\n");
 }
-
