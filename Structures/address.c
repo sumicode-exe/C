@@ -19,33 +19,33 @@ int main()
     struct address adds[3];
 
     printf("enter information for person 1 : ");
-    //printf("Enter house no: \n");
+    printf("Enter house no: \n");
     scanf("%d", &adds[0].houseNo);
-    //printf("Enter block no: \n");
+    printf("Enter block no: \n");
     scanf("%d", &adds[0].block);
-    //printf("Enter city: \n");
+    printf("Enter city: \n");
     scanf("%s", adds[0].city);
-    //printf("Enter state: \n");
+    printf("Enter state: \n");
     scanf("%s", adds[0].state);
 
-    printf("enter information for person 1 : ");
-    //printf("Enter house no: \n");
+    printf("enter information for person 2 : ");
+    printf("Enter house no: \n");
     scanf("%d", &adds[1].houseNo);
-    //printf("Enter block no: \n");
+    printf("Enter block no: \n");
     scanf("%d", &adds[1].block);
-    //printf("Enter city: \n");
+    printf("Enter city: \n");
     scanf("%s", adds[1].city);
-    //printf("Enter state: \n");
+    printf("Enter state: \n");
     scanf("%s", adds[1].state);
 
-    printf("enter information for person 1 : ");
-    //printf("Enter house no: \n");
+    printf("enter information for person 3 : ");
+    printf("Enter house no: \n");
     scanf("%d", &adds[2].houseNo);
-    //printf("Enter block no: \n");
+    printf("Enter block no: \n");
     scanf("%d", &adds[2].block);
-    //printf("Enter city: \n");
+    printf("Enter city: \n");
     scanf("%s", adds[2].city);
-    //printf("Enter state: \n");
+    printf("Enter state: \n");
     scanf("%s", adds[2].state);
 
     printAdd(adds[0]);
