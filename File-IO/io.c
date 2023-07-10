@@ -38,7 +38,7 @@ int main()
     // fputc
     fptr = fopen("NewFile.txt", "w");
     fputc('a', fptr);
-    fpute('p', fptr);
+    fputc('p', fptr);
     fputc('p', fptr);
     fputc('l', fptr);
     fputc('e', fptr);
