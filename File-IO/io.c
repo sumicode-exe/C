@@ -14,9 +14,9 @@ int main()
     else
     {
         fscanf(fptr, "%c", &ch);
-        printf("character in file is : %c\n", ch);
+        printf("%c\n", ch);
         fscanf(fptr, "%c", &ch);
-        printf("character in file is : %c\n", ch);
+        printf("%c\n", ch);
         fclose(fptr);
     }
 
