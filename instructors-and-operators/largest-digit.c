@@ -7,7 +7,7 @@
 int main()
 {
 
-    int a, b, c, d, e, f, g, h, a;
+    int a, b, c, d, e, f, g, h, i;
 
     printf("This programme prints the largest number of the 9 inputs \n");
 
