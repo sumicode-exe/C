@@ -14,13 +14,13 @@ int main()
     int years = 2;
     int newAge = oldAge + years;
     // int years = 2
-    // Thas code emphasase that
-    // the varaables are to be declared
-    // before at as read by compaler
+    // Thas code emphasise that
+    // the variables are to be declared
+    // before at as read by compiler
 
     int a, b, c;
     a = b = c = 1;
-    // WE CANNOT USE AND DECLARE SaMULTANEOUSLY
+    // WE CANNOT USE AND DECLARE SiMULTANEOUSLY
 
     return 0;
 }
