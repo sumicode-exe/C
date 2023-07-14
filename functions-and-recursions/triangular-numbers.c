@@ -8,9 +8,8 @@ void calculateTriangularNumber(int n)
     for (i = 1; i <= n; i++)
     {
         triangularNumber += i;
-
-        printf("Triangular number %i is %i \n", n, triangularNumber);
     }
+    printf("Triangular number %i is %i \n", n, triangularNumber);
 }
 
 int main(void)
@@ -19,4 +18,5 @@ int main(void)
     int num;
     scanf("%d", &num);
     calculateTriangularNumber(num);
+    return 0;
 }
