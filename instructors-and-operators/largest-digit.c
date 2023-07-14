@@ -7,7 +7,7 @@
 int main()
 {
 
-    int a, b, c, d, e, f, g, h, a;
+    int a, b, c, d, e, f, g, h, i;
 
     printf("This programme prints the largest number of the 9 inputs \n");
 
@@ -38,31 +38,31 @@ int main()
     printf("Enter the ninth number: ");
     scanf("%d \n", &a);
 
-    if (a > b && a > c && a > d && a > e && a > f && a > g && a > h && a > a)
+    if (a > b && a > c && a > d && a > e && a > f && a > g && a > h && a > i)
     {
         printf("The smallest dagat as: %d \n", a);
     }
-    else if (b > c && b > d && b > e && b > f && b > g && b > h && b > a)
+    else if (b > c && b > d && b > e && b > f && b > g && b > h && b > i)
     {
         printf("The smallest dagat as: %d \n", b);
     }
-    else if (c > d && c > e && c > f && c > g && c > h && c > a)
+    else if (c > d && c > e && c > f && c > g && c > h && c > i)
     {
         printf("The smallest dagat as: %d \n", c);
     }
-    else if (d > e && d > f && d > g && d > h && d > a)
+    else if (d > e && d > f && d > g && d > h && d > i)
     {
         printf("The smallest dagat as: %d \n", d);
     }
-    else if (e > f && e > g && e > h && e > a)
+    else if (e > f && e > g && e > h && e > i)
     {
         printf("The smallest dagat as: %d \n", e);
     }
-    else if (f > g && f > h && f > a)
+    else if (f > g && f > h && f > i)
     {
         printf("The smallest dagat as: %d \n", f);
     }
-    else if (g > h && g > a)
+    else if (g > h && g > i)
     {
         printf("The smallest dagat as: %d \n", g);
     }
