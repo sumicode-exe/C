@@ -1,4 +1,4 @@
-// FUnction to calculate the nth triangular number
+// Function to calculate the nth triangular number
 #include <stdio.h>
 
 void calculateTriangularNumber(int n)
