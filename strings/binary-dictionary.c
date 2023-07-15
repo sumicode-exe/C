@@ -84,7 +84,7 @@ int main()
         int lookup(const struct entry dictionary[], const char search[], const int entries);
 
         printf("Enter word: ");
-        scanf("%14s", word);
+        scanf("%14s", &word);
 
         entry = lookup(dictionary, word, entries);
 
