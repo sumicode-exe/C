@@ -14,7 +14,8 @@ int main()
     char ch;
     int i = 0;
 
-    while (ch != '\n'){
+    while (ch != '\n')
+    {
         printf("enter a string: ");
         scanf("%c", &ch);
         str[i] = ch;
@@ -43,5 +44,4 @@ int main()
     fgets(fullName, 40, stdin);
     puts(fullName);
     printf("After reversing string is =%s", strrev(fullName));
-
 }
