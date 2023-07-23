@@ -3,7 +3,7 @@
 
 int main()
 {
-    char *ptr = "sumii";
+    char *ptr = "sumiiJhaa";
     int x = 10;
     printf("%s ", INCREMENT(ptr));
     printf("%d", INCREMENT(x));
