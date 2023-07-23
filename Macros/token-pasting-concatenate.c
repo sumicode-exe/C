@@ -7,5 +7,5 @@ int main()
 {
     printf("%d ", mergeNUM(12, 34));
     // printf("%s", mergeCHAR(why, i));
-    printf("%s", get(GeeksQuiz));
+    printf("%s", get(Sumiii));
 }

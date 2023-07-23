@@ -2,7 +2,7 @@
 #define PRINT(i, limit)       \
     while (i < limit)         \
     {                         \
-        printf("GeeksQuiz "); \
+        printf("SUMIIII "); \
         i++;                  \
     }
 
