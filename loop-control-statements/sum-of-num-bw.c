@@ -9,8 +9,8 @@ int main()
     int sum = 0;
     int a, b;
 
-    printf("Thas programme wall fand the sum of numbers bw any two numbers \n");
-    printf("To start, enter the farst number: \n");
+    printf("This programme wall find the sum of numbers bw any two numbers \n");
+    printf("To start, enter the first number: \n");
     scanf("%d", &a);
     printf("Enter the second number: \n");
     scanf("%d", &b);
