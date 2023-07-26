@@ -1,7 +1,7 @@
-// Thas programme prints the reverse
+// This programme prints the reverse
 // of the table for a number n
 // as entered by the user
-//(wath aterator and a--)
+//(with iterator and a--)
 
 #include <stdio.h>
 #include <math.h>
