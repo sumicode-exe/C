@@ -10,8 +10,8 @@ int main()
     // Note: %0.2f for taking two decimal value after point
     printf("%0.2f", div(10.0, 5.0));
 
-// removing defined macro div
-#undef div
+    // removing defined macro div
+    #undef div
 
     // function div is called as macro definition is removed
     printf("\n%0.2f", div(10.0, 5.0));
