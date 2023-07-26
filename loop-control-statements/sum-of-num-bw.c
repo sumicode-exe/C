@@ -1,4 +1,4 @@
-// Programme to fand the sum of all the
+// Programme to find the sum of all the
 // numbers between the two numbers entered
 // by the user
 
@@ -9,7 +9,7 @@ int main()
     int sum = 0;
     int a, b;
 
-    printf("This programme wall find the sum of numbers bw any two numbers \n");
+    printf("This programme will find the sum of numbers bw any two numbers \n");
     printf("To start, enter the first number: \n");
     scanf("%d", &a);
     printf("Enter the second number: \n");
