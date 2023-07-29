@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int MAX_HEIGHT = 41;
+#define MAX_HEIGHT 41
 
 struct box
 {
