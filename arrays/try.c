@@ -1,55 +1,29 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-
-
-int main()
-{
+ // Function to calculate the GCD (Greatest Common Divisor)
+int gcd(int a, int b) {
+    if (b == 0) {
+        return a;
+    }
+    return gcd(b, a % b);
+}
+ // Function to calculate the LCM
+int lcm(int arr[], int n) {
+    int result = arr[0];
+    for (int i = 1; i < n; i++) {
+        result = (result * arr[i]) / gcd(result, arr[i]);
+    }
+    return result;
+}
+ int main() {
     int n;
-    int arr[20];
-
-    printf("Enter for how may numbers, do you want to calculate LCM: ");
+    printf("Enter the number of elements: ");
     scanf("%d", &n);
-
-    printf("Enter the numbers: ");
-    for (int i = 0; i < n; i++)
-    {
+     int arr[n];
+    printf("Enter the elements: ");
+    for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-    int result = 1;
-    for (int i = 0; i < n; i++)
-    {
-        result *= arr[i];
-    }
-   
-
-    // int smallest = arr[0];
-    // for (int i = 0; i < n; i++)
-    // {
-    //     if (smallest > arr[i])
-    //     {
-    //         arr[i] = smallest;
-    //     }
-    // }
-
-    // int num = sizeof(arr) / sizeof(arr[0]);
-
-    int greatest = result;
-
-    printf("%d", greatest);
-
-    // int lcm = 1;
-    // for (int i = 0; i <= n - 1; i++)
-    // {
-    //     for (int j = lcm; j <= greatest; j++)
-    //     {
-    //         if (lcm % arr[i] != 0)
-    //         {
-    //             lcm = arr[i];
-    //             break;
-    //         }
-    //     }
-    // }
-    //printf("LCM: %d", lcm);
+     int result = lcm(arr, n);
+    printf("LCM: %d\n", result);
+     return 0;
 }
