@@ -8,11 +8,11 @@ int main()
 
     printf("Enter the dimensions of the matrix <row> <column>");
     scanf("%d %d", &row, &column);
-    int arr[row][column];
+    int arr[30][30];
 
-    for (int i = 1; i <= row; i++)
+    for (int i = 0; i < row; i++)
     {
-        for (int j = 1; j <= column; j++)
+        for (int j = 0; j < column; j++)
         {
             printf("Enter the elements of Matrix A: [%d][%d] \n", i, j);
             scanf("%d", &arr[i][j]);
@@ -23,6 +23,24 @@ int main()
         for (int j = 0; j < column; j++)
         {
             printf("%d\t", arr[i][j]);
+        }
+        printf("\n");
+    }
+
+    int temp[column][row];
+    for (int rowc = 0; rowc < row; rowc++)
+    {
+        for (int columnr = 0; columnr < column; columnr++)
+        {
+            temp[columnr][rowc] = arr[rowc][columnr];
+        }
+    }
+    printf("Transposed Matrix:\n");
+    for (int i = 0; i < column; i++)
+    {
+        for (int j = 0; j < row; j++)
+        {
+            printf("%d\t", temp[i][j]);
         }
         printf("\n");
     }
