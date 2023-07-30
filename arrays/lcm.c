@@ -18,18 +18,6 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    // Calculate the PRODUCT of all elemnts
-    // To calculate LCM, the maximum limit to
-    // check to would be till the PRODUCT
-
-    int product = 1;
-    for (int i = 0; i < n; i++)
-    {
-        product *= arr[i];
-        // return product;
-    }
-    printf("Max can be:%d\n", product);
-
     // Calculate the greatest number
     // The LCM, in any case, will be
     // MORE than the greatest number
@@ -47,24 +35,27 @@ int main()
     // For each mutiple of the greatest number,
     // if other elements in the array divide it
     // to remainder 0, it is the LCM
-    int lcm = 1;
-    for (int i = 1; i <= product; i++)
+    int lcm = greatest;
+    int found = 0;
+    while (!found)
     {
         int isDivisible = 1;
-        for (int j = 0; j < n; j++)
+        for (int i = 0; i < n; i++)
         {
-            if ((i * greatest) % arr[j] != 0)
+            if (lcm % arr[i] != 0)
             {
-                int isDivisible = 0;
+                isDivisible = 0;
                 break;
             }
         }
-        if (isDivisible == 1)
+        if (isDivisible)
         {
-            lcm = i;
+            found = 1;
         }
-
-        printf("table: %d \n", i * greatest);
+        else
+        {
+            lcm += greatest;
+        }
     }
 
     printf("%d", lcm);
