@@ -6,15 +6,21 @@ int main()
     int n;
     printf("Enter how many elemnts in array");
     scanf("%d", &n);
-    int arr[20];
+
+    int arr[n];
+
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
-    int result;
+
+    int result = 0;
+
     for (int i = 0; i < n; i++)
     {
-        result = (arr[i] + result) / n;
+        result += arr[i];
     }
+    
+    result /= n;
     printf("%d", result);
 }
