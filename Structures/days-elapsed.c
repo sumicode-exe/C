@@ -1,83 +1,91 @@
+// Program to determine tomorrow's date
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
+#include <stdbool.h>
 
-typedef struct date1
+struct date
 {
-    int date;
-    char month[20];
+    int month;
+    int day;
     int year;
-} d1;
+};
 
-typedef struct date2
+// Function to calculate tomorrow's date
+struct date dateUpdate(struct date today)
 {
-    int date;
-    char month[20];
-    int year;
-} d2;
+    struct date tomorrow;
+    int numberOfDays(struct date d);
 
-int f(d1.month, d1.year);
-int f(d2.month, d2.year);
-int g(d1.month);
-int g(d2.month);
-
-int main()
-{
-    printf("Enter today's date (mm dd yyyy): ");
-    scanf("%i%i%i", &d1.month, &d1.day,
-          &d1.year);
-
-    printf("Enter today's date (mm dd yyyy): ");
-    scanf("%i%i%i", &d2.month, &d2.day,
-          &d2.year);
-
-    printf("Tomorrow's date is %i/%i/%.2i.\n", d1.month,
-           d1.day, d1.year % 100);
-    printf("Tomorrow's date is %i/%i/%.2i.\n", d2.month,
-           d2.day, d2.year % 100);
-
-    int n1 = 1461 * f(d1.month, d1.year) / 4 + 153 + g(d1.month) / 5 + d1.date;
-    int n2 = 1461 * f(d2.month, d2.year) / 4 + 153 + g(d2.month) / 5 + d2.date;
-    int elapsed_time = n1 - n2;
-    printf("time elapsed is: %d", elapsed_time);
-}
-
-int f(d1.month, d1.year)
-{
-    if (d1.month <= 2)
+    if (today.day != numberOfDays(today))
     {
-        d1.year -= 1;
+        tomorrow.day = today.day + 1;
+        tomorrow.month = today.month;
+        tomorrow.year = today.year;
     }
-}
-
-int f(d2.month, d2.year)
-{
-    if (d2.month <= 2)
-    {
-        d2.year -= 1;
-    }
-}
-
-int g(d1.month)
-{
-    if (d1.month <= 2)
-    {
-        d1.month += 13;
+    else if (today.month == 12)
+    { // end of year
+        tomorrow.day = 1;
+        tomorrow.month = 1;
+        tomorrow.year = today.year + 1;
     }
     else
-    {
-        d1.month += 1;
+    { // end of month
+        tomorrow.day = 1;
+        tomorrow.month = today.month + 1;
+        tomorrow.year = today.year;
     }
+
+    return tomorrow;
 }
 
-int g(d2.month)
+
+// Function to find the number of days in a month
+int numberOfDays(struct date d)
 {
-    if (d2.month <= 2)
-    {
-        d2.month += 13;
-    }
+    int days;
+    bool isLeapYear(struct date d);
+
+    const int daysPerMonth[12] =
+        {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        
+    if (isLeapYear && d.month == 2)
+        days = 29;
     else
-    {
-        d2.month += 1;
-    }
+        days = daysPerMonth[d.month - 1];
+
+    return days;
+
+}
+
+// Function to determine if it's a leap year
+bool isLeapYear(struct date d)
+{
+    bool leapYearFlag;
+
+    if ((d.year % 4 == 0 && d.year % 100 != 0) ||
+        d.year % 400 == 0)
+        leapYearFlag = true; // It's a leap year
+    else
+        leapYearFlag = false; // Not a leap year
+
+    return leapYearFlag;
+
+}
+
+
+int main(void)
+{
+    struct date dateUpdate(struct date today);
+    struct date thisDay, nextDay;
+
+    printf("Enter today's date (mm dd yyyy): ");
+
+    scanf("%i%i%i", &thisDay.month, &thisDay.day,
+          &thisDay.year);
+          
+    nextDay = dateUpdate(thisDay);
+
+    printf("Tomorrow's date is %i/%i/%.2i.\n", nextDay.month,
+           nextDay.day, nextDay.year % 100);
+           
+    return 0;
 }
