@@ -28,6 +28,8 @@ struct date dateUpdate(struct date today)
         tomorrow.year = today.year + 1;
     }
     else
+
+    
     { // end of month
         tomorrow.day = 1;
         tomorrow.month = today.month + 1;
