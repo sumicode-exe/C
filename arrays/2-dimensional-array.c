@@ -6,7 +6,8 @@ void storeTable(int (*arr)[10], int n, int m, int number);
 
 int main()
 {
-    int tables[2][10] = {0}; // Array to store two multiplication tables, initialize with 0
+    int tables[2][10] = {0}; 
+    // Array to store two multiplication tables, initialize with 0
 
     // Calculate and store the table of 2 in the first row
     storeTable(tables, 0, 10, 2);
@@ -22,6 +23,7 @@ int main()
 
     printf("\n");
     
+    
     // Print the second row of the array
     for (int i = 0; i < 10; i++)
     {
@@ -30,6 +32,8 @@ int main()
 
     return 0;
 }
+
+
 
 // Function to store the multiplication table of a number in a row of the array
 void storeTable(int (*arr)[10], int n, int m, int number)
