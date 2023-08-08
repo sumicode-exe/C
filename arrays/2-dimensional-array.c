@@ -6,9 +6,13 @@ void storeTable(int (*arr)[10], int n, int m, int number);
 
 int main()
 {
-    int tables[2][10]; // Array to store two multiplication tables
-    storeTable(tables, 0, 10, 2); // Store the table of 2 in the first row
-    storeTable(tables, 1, 10, 3); // Store the table of 3 in the second row
+    int tables[2][10] = {0}; // Array to store two multiplication tables, initialize with 0
+
+    // Calculate and store the table of 2 in the first row
+    storeTable(tables, 0, 10, 2);
+
+    // Calculate and store the table of 3 in the second row
+    storeTable(tables, 1, 10, 3);
 
     // Print the first row of the array
     for (int i = 0; i < 10; i++)
