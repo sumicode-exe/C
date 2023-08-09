@@ -1,7 +1,4 @@
-// ARRAYS AS FUNCTION ARGUMENTS AND SYNTAX
-
 #include <stdio.h>
-#include <math.h>
 
 // Function to print the elements of an array
 void printNumbers(int *arr, int n);
