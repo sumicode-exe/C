@@ -1,39 +1,45 @@
 // ARRAYS AS FUNCTION ARGUMENTS AND SYNTAX
 
-// FUNCTION DECLARATION
-//   void printNumbers(int arr[], int n);
-//  or
-//   void printNumbers(int *arr, int n);
+// Function declaration using array syntax
+void printNumbers(int arr[], int n);
+// or
+// void printNumbers(int *arr, int n);
 
-// FUNCTION CALL
-//   printNumbers(arr, n);
+// Function call
+// printNumbers(arr, n);
 
 #include <stdio.h>
 #include <math.h>
 
+// Function to print the elements of an array
 void printNumbers(int *arr, int n);
-void _printNUmbers(int arr[], int n);
+// or
+// void printNumbersarr(int arr[], int n);
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5, 6};
-    printNumbers(arr, 6);
-    printNumbers(arr, 6);
+    int arr[] = {1, 2, 3, 4, 5, 6}; // Declare and initialize an array
+
+    printNumbers(arr, 6); // Call the function to print the elements of the array
+    printNumbers(arr, 6); // Call the function again with the same array
+
     return 0;
 }
 
+// Function to print the elements of an array
 void printNumbers(int *arr, int n)
 {
     for (int i = 0; i < n; i++)
     {
-        printf("%d : %d \n", i, arr[i]);
+        printf("%d : %d \n", i, arr[i]); // Print the index and value of each element
     }
 }
 
-void _printNUmbers(int *arr, int n)
+// Function to print the elements of an array (alternative implementation)
+void printNumbersarr(int *arr, int n)
 {
     for (int i = 0; i < n; i++)
     {
-        printf("%d : %d \n", i, arr[i]);
+        printf("%d : %d \n", i, arr[i]); // Print the index and value of each element
     }
 }
