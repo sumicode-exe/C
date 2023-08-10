@@ -1,3 +1,6 @@
+//This is a programme in C to 
+//reverse the elements of an array
+//which are provided as an input b the user
 #include <stdio.h>
 #include <math.h>
 
