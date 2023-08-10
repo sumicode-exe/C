@@ -2,21 +2,21 @@
 
 int main()
 {
-    int aadhaar[5];
+    int aadhaar[5]; // Declare an integer array named 'aadhaar' with size 5
 
-    // input
-    int *ptr = &aadhaar[0];
-    
-    for (int i = 0; i<5; i++)
-    {
-        printf("%d index: ", i);
-        scanf("%d", (ptr + i));
-    }
+    // Input
+    int *ptr = &aadhaar[0]; // Declare a pointer 'ptr' and assign the address of the first element of the array
 
-    // output
     for (int i = 0; i < 5; i++)
     {
-        printf("%d index = %d \n", i, *(ptr + i));
+        printf("%d index: ", i); // Prompt the user to enter a value for the current index
+        scanf("%d", (ptr + i)); // Read the value entered by the user and store it at the current index
+    }
+
+    // Output
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d index = %d \n", i, *(ptr + i)); // Print the index and value of each element in the array
     }
 
     return 0;

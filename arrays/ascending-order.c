@@ -1,7 +1,8 @@
-// Programme to sort an array of integers onto ascending order
+// Programme to sort an array of integers in ascending order
 
 #include <stdio.h>
 
+// Function to sort the array using selection sort algorithm
 void sort(int a[], int n)
 {
     int i, j, temp;
@@ -22,28 +23,28 @@ void sort(int a[], int n)
 int main(void)
 {
     int i;
-    // int array[16] = {34, -5, 6, 0, 12, 100, 56, 22, 44,
-    //-3, -9, 12, 17, 22, 6, 11};
-    
-    int array[16];
+    int array[16]; // Declare an array of size 16 to store integers
 
+    // Read integers from the user and store them in the array
     for (int i = 0; i <= 15; i++)
     {
         scanf("%d", &array[i]);
     }
-    void sort(int a[], int n);
+
+    // Call the sort function to sort the array
+    sort(array, 16);
 
     printf("The array before the sort: \n");
 
+    // Print the elements of the array before sorting
     for (i = 0; i < 16; i++)
     {
         printf("%i ", array[i]);
     }
 
-    sort(array, 16);
-
     printf("\n \n The array after the sort: \n");
 
+    // Print the elements of the array after sorting
     for (i = 0; i < 16; i++)
     {
         printf("%i ", array[i]);
