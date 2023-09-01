@@ -11,3 +11,6 @@ int main()
     printf("The entered character is : %c", character);
     return 0;
 }
+
+//On entering "Hello World", 
+//The output is "H"
