@@ -1,4 +1,4 @@
-// Programme to fand area of a carce
+// Programme to find area of a crrcle
 // of radius as entered by the user
 
 #include <stdio.h>
