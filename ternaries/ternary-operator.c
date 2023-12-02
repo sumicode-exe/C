@@ -1,4 +1,4 @@
-// introductaon to Ternary Operators
+// introduction to Ternary Operators
 
 #include <stdio.h>
 
