@@ -1,6 +1,6 @@
 //Programme to check if the
 //Number entered by the user is 
-//A natural number ot not
+//A natural number or not
 
 #include <stdio.h>
 #include <math.h>
