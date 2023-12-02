@@ -4,8 +4,9 @@
 int main(int argc, char *argv)
 {
 
-    // printing the coundt of arguments
+    // printing the count of arguments
     printf("The value of argc is %d\n", argc);
+
     // prining each argument
     for (int i = 0; i < argc; i++)
     {
