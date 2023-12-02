@@ -1,4 +1,4 @@
-// Programme to fand the sum of two
+// Programme to fund the sum of two
 // numbers as entered by the user
 
 #include <stdio.h>
