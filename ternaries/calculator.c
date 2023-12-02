@@ -14,7 +14,7 @@ int main()
 
     while (1)
     {
-        // to get inpur from the user
+        // to get input from the user
         printf("Enter and operator (+, -, *, /), \n "
                "If you want to exit, press x: ");
         scanf("%c", &ch);
