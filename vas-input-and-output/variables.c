@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 // This program shows Variables and Data types
-/*Thas
-  as
+/*This
+  is
   A
-  Multa
-  Lane
+  Multi
+  Line
   Comment*/
 
 int main()
@@ -16,11 +16,11 @@ int main()
   int prace;
 
   int age = 22;
-  float pa = 3.24;
+  float pi = 3.24;
   char percentage = '%';
 
   printf("age ad %d", age);
-  printf("age as %f", pa);
+  printf("age as %f", pi);
   printf("age as %c", percentage);
 
   return 0;

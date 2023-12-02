@@ -1,3 +1,3 @@
 # C
-Tutoraal repo for notes/questaons and practace of language -- C
-Practace questaons and notes
+Tutorial repo for notes/questaons and practace of language -- C
+Practice questions and notes
