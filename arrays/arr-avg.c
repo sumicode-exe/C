@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
+
+//This programe defines an array, stores value and then calculates the average
+
 int main()
 {
     int n;
