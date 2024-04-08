@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
+//This programe stores the table of two and three using the funtion void store table
+//This fuunction is called in main to display the table stored 
+
+
 // Function to store the multiplication table in the array
 void storeTable(int (*arr)[10], int n, int m, int number);
+//*arr points to array
 
 int main()
 {
