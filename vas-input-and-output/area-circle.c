@@ -1,4 +1,4 @@
-// Programme to find area of a crrcle
+// Programme to find area of a circle
 // of radius as entered by the user
 
 #include <stdio.h>
@@ -6,11 +6,11 @@
 int main()
 {
 
-    float radius;
+    int radius;
 
-    printf("Enter the legth of radius \n");
-    scanf("%f", &radius);
-    printf("Area of carcle as %f", 3.14 * radius * radius);
+    printf("Enter the length of radius \n");
+    scanf("%d", &radius);
+    printf("Area of circle as %d", (22/7) * radius * radius);
 
     return 0;
 }
