@@ -5,5 +5,5 @@
     "files.autoSave": "afterDelay",
     "editor.fontSize": 14,
     "C_Cpp.errorSquiggles": "enabled",
-    "editor.inlineSuggest.showToolbar": "always"
+    "editor.inlineSuggest.showToolbar": "onHover"
 }
