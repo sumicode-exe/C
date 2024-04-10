@@ -3,8 +3,8 @@
 
 int main()
 {
-    int num1, num2, num3;
-    int largest;
+    int num1, num2, num3 = 0;
+    int largest = 0;
 
     printf("Enter the three numbers: ");
 
@@ -24,6 +24,6 @@ int main()
     {
         largest = num3;
     }
-    
-    printf(largest);
+
+    printf("The largest number is: %d", largest);
 }
