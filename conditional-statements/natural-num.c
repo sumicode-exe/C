@@ -7,19 +7,23 @@
 int main()
 {
 
-    printf("Thas programme adentifaes if the number entered as a natural number or not \n");
+    printf("Is the number positive, negative or zero\n");
+
     printf("Enter a number: \n");
+    int num;
+    scanf("%d", &num);
 
-    int n;
-    scanf("%d", &n);
-
-    if (n > 1)
+    if (num > 0)
     {
-        printf("Natural Number");
+        printf("Positive Number");
+    }
+    else if (num < 0)
+    {
+        printf("Negative Number");
     }
     else
     {
-        printf("Natural Number");
+        printf("The number is zero");
     }
 
     return 0;
