@@ -89,6 +89,7 @@ int main()
     int base;
     int exponent;
     printf("Enter the value of \n base and exponent :\n");
+    scanf("%d %d", &base, &exponent);
     printf("Power using recursion: %d\n", powerRecursive(base, exponent));
     printf("Power using iteration: %d\n", powerIterative(base, exponent));
 
