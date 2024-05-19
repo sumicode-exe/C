@@ -1,0 +1,4 @@
+Hello World
+This is 
+document. txt 
+for c assignment

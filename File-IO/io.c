@@ -22,7 +22,7 @@ int main()
 
     // Writing in a file
     ch = 'N';
-    fptr = fopen("NewFile.txt", "w");
+    fptr = fopen("NewFile.txt", "w");s
     fprintf(fptr, "%cANGO", ch);
     fclose(fptr);
 
