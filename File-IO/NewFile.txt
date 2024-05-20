@@ -1,1 +1,6 @@
 apple
+hello world
+this is programming
+in c
+lab documentation.
+Ramaiah University

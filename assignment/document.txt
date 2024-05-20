@@ -1,4 +1,4 @@
-Hello World
-This is 
-document. txt 
-for c assignment
+hello World
+this is a c program
+for counting the words and lines
+thank you
